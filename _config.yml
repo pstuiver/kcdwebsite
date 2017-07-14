@@ -1,0 +1,10 @@
+# Basic options
+title: Just a start
+athor: Paul
+email: pstuiverx@gmail.com
+description: Just a start
+github_username: pstuiver
+
+# Build settings
+markdown: kramdown
+theme: jekyll-theme-cayman
