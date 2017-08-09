@@ -1,5 +1,5 @@
 # Basic options
-title: Just a start
+title: KCD1COPY
 athor: Paul
 email: pstuiverx@gmail.com
 description: Just a start
@@ -7,4 +7,4 @@ github_username: pstuiver
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-architect
+
