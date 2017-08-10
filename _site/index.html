@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<title>Test KCD Website</title>
+<title>Test kcdwebsite</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -11,11 +11,10 @@
 <head>
 </head>
 
-<body style=" max-width:1280px;margin:auto;">
+<body style="max-width:1280px;margin:auto;">
 
-    <!-- 
-    Company info and Navbar (fixed on top) -->
-    <div class="w3-top w3-white" style="max-width:1280px">
+    <!-- Company info and Navbar (Navbar fixed on top) -->
+    <div class=" w3-top w3-white" style="max-width:1280px">
         <div class="w3-display-container">
             <h2 class="w3-center" style="margin:10px 0px 0px 0px;">Elsje Stuiver - Occupational Therapy</h2>
             <p class="w3-center w3-large w3-hide-small" style="margin:-5px 0px 20px 0px;">HPCSA reg. OT0773342 &nbsp; &nbsp; &nbsp; Practice no. 066 000 0684414</p>
@@ -23,8 +22,7 @@
         </div>
         <div class="w3-container padding-0 margin-0">
             <div class=" w3-bar w3-theme w3-large w3-border-bottom w3-border-white" id="Navbar" style="font-weight: 500;">
-                <!-- 
-                Right-sided navbar links -->
+                <!-- Right-sided navbar links -->
                 <div class="w3-right w3-hide-small">
                     <div class="w3-bar w3-theme">
                         <a href="#home" class="w3-bar-item w3-button"><i class="fa fa-home"></i> Home</a>
@@ -59,16 +57,14 @@
                         <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> Contact</a>
                     </div>
                 </div>
-                <!-- 
-                Hide right-floated links on small screens and replace them with a menu icon -->
+                <!-- Hide right-floated links on small screens and replace them with a menu icon -->
                 <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium w3-theme" onclick="w3_open()">
                     <i class="fa fa-bars"></i>
                 </a>
             </div>
         </div>
     </div>
-    <!-- 
-    Sidebar on small screens when clicking the menu icon -->
+    <!-- Sidebar on small screens when clicking the menu icon -->
     <nav class="w3-sidebar w3-theme w3-bar-block w3-card w3-animate-left w3-hide-medium w3-hide-large w3-hover-theme-dark" style="display:none" id="mySidebar">
         <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large">Close ×</a>
         <a href="#home" onclick="w3_close()" class="w3-bar-item w3-button"> Home</a>
@@ -102,62 +98,48 @@
         </div>
         <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button"> Contact</a>
     </nav>
-    <!-- 
-    Home page -->
-    <div id="home" class="w3-container w3-white" style="padding-top:180px;"></div>
-    <div class="w3-container">
-        <div class="w3-half">
-            <img src="images/Kidz2.png" alt="kidz2 pic" class="w3-image w3-right w3-round-xlarge" style="width:60%;height:auto;margin-right:75px">
+
+    <!-- Home page -->
+    <div id="home" class="w3-white" style="height:150px;max-width:1280px;"></div>
+    <div class="w3-container w3-white w3-center" style="max-width:1280px;">
+        <div>
+            <img src="images/Kidz2.png" alt="kidz" class="w3-image w3-margin w3-round-xlarge" style="width:23%;height:auto;">
+            <img src="images/Kidz5.png" alt="kidz" class="w3-image w3-margin w3-round-xlarge" style="width:23%;height:auto;">
+            <img src="images/Kidz6.png" alt="kidz" class="w3-image w3-margin w3-round-xlarge" style="width:23%;height:auto;">
         </div>
-        <div class="w3-half">
-            <img src="images/Kidz5.png" alt="kidz5 pic" class="w3-image w3-left w3-round-xlarge" style="width:60%;height:auto;margin-left:75px;">
-        </div>
-        <div class="w3-container w3-center">
-            <div class="w3-quarter">
-                <img src="images/Kidz3.png" alt="kidz3 pic" class="w3-image w3-round-xlarge w3-left" style="width:75%;height:auto;margin-top:75px;">
-            </div>
-            <div class="w3-half">
-                <div class="w3-text-theme padding-0 margin-0 w3-center" style=" line-height:1.4;margin-top:75px;">
-                    <h2 style="line-height:0.8;"><b>Unlocking your child' s potential</b></h2>
-                    <h4><b>We are an independent private practice in Pinetown, Durban.<br style="line-height:1.8;">We specialise in assessesing and treating problems that can affect children at home, at school or with friends.<br style="line-height:1.8;">Our therapy is fun and we encourage family participation.<br style="line-height:1.8;">Our specialised input enables children to discover their strengths, to overcome their difficulties and to so unlock their true potential.<br style="line-height:2;"></b></h4><br>
-                    <h2 style="line-height:0.8;"><b>We offer free telephone consultations</b></h2>
-                    <h4><b>You can share your concerns regarding your child with the therapist during this 15 minute conversation so that she can recommend a way forward.</b></h4><br>
+
+        <div class="w3-container w3-white">
+            <div class="w3-display-container">
+                <div class="w3-text-theme w3-xlarge" style="min-width: 66%;">
+                    <p><b>Unlocking your child&#39;s potential</b><br>We are an independent private practice in Pinetown, Durban.<br>We specialise in assessesing and treating problems<br>that can affect children at home, at school or with friends.<br>Our therapy is fun and we encourage family participation.<br>Our specialised input enables children to discover their strengths,<br>to overcome their difficulties and so unlock their true potential.<br><br><b>We offer free telephone consultations.</b><br>You can share your concerns regarding your child with the therapist<br>during this 15 minute conversation and explore options.
+                    </p><br>
+
+                    <div>
+                        <a href="#contact" class=" w3-padding w3-center w3-xlarge w3-theme w3-round-xlarge w3-margin w3-border w3-border-theme w3-hover-theme-light">Contact us</a>
+                    </div>
 
                 </div>
-                <a href="#contact" class="w3-button w3-xlarge w3-theme w3-round-xlarge w3-margin w3-border w3-border-theme w3-hover-theme-light">Contact us</a>
-            </div>
-            <div class="w3-quarter">
-                <img src="images/Kidz4.png" alt="kidz4 pic" class="w3-image w3-round-xlarge w3-right" style="width:75%;height:auto;margin-top:80px">
-            </div>
-        </div>
-        <div class="w3-display-container w3-center">
-            <div class="w3-quarter">
-                <img src="images/Toy1.png" alt="Toy3 pic" class="w3-image w3-round-xlarge w3-right" style="width:80%;height:auto;margin-top:-60px;margin-right:-100px;">
-            </div>
-            <div class="w3-quarter">
-                <p></p>
-            </div>
-            <div class="w3-quarter">
-                <p></p>
-            </div>
-            <div class="w3-quarter">
-                <img src="images/Toy3.png" alt="toy3 pic" class="w3-image w3-round-xlarge w3-left" style="width:80%;height:auto;margin-top:-60px;margin-left:-100px;">
-            </div>
-            <div id="filler" class=" w3-container w3-white w3-padding-64"></div>
-            <div id="filler" class=" w3-container w3-white w3-padding-64"></div>
-        </div>
 
+                <img src="images/Kidz3.png" alt="kidz" class="w3-image w3-display-topleft w3-hide-small w3-hide-medium w3-round-xlarge" style="width:15%;height:auto;">
+                <img src="images/Kidz4.png" alt="kidz" class="w3-image w3-display-topright w3-hide-small w3-hide-medium w3-round-xlarge" style="width:15%;height:auto;">
+                <img src="images/Toy1.png" alt="toy" class="w3-image w3-display-bottomleft w3-hide-small w3-round-xlarge" style="width:20%;height:auto;margin-bottom:-50px;">
+                <img src="images/Toy3.png" alt="toy" class="w3-image w3-display-bottomright w3-hide-small w3-round-xlarge" style="width:20%;height:auto;margin-bottom:-50px">
+            </div>
+        </div>
     </div>
-    <!-- 
-    About Section -->
+
+
+    <div id="filler" class=" w3-container w3-white w3-padding-64"></div>
+    <div id="filler" class=" w3-container w3-white w3-hide-small w3-padding-64"></div>
+
+
+    <!-- About Section -->
     <div class="w3-white"></div>
     <div class="w3-container w3-center kcd-theme-blb">
         <p class="w3-center w3-xxxlarge"><b><i class="fa fa-star"></i> <span id="about"></span> ABOUT <i class="fa fa-star"></i></b>
         </p>
-        <!--
-        Left side of About page-->
-        <!--
-        About the Therapist-->
+        <!-- Left side of About page -->
+        <!-- About the Therapist -->
         <div class=" w3-half">
             <div class="w3-container w3-padding">
                 <div class=" w3-container w3-theme w3-round-xlarge w3-padding">
@@ -175,10 +157,10 @@
                 </div>
             </div>
         </div>
-        <!--
-        Right side of About page-->
+
+        <!-- Right side of About page -->
         <div class="w3-half">
-            <!-- About Occupational Therapy-->
+            <!-- About Occupational Therapy -->
             <div class="w3-container kcd-theme-blb w3-padding w3-round-xlarge kcd-hover-theme-black">
                 <a href="about-ot.html" target="_self" class="w3-theme">
                     <div class="w3-theme w3-padding w3-border w3-border-theme w3-round-xlarge">
@@ -214,11 +196,10 @@
     <div class="w3-container w3-white w3-text-theme w3-center">
         <p class="w3-center w3-xxxlarge"><b><i class="fa fa-child"></i><span id="services"></span> OUR SERVICES <i class="fa fa-child"></i></b></p>
         <div class="w3-container w3-white margin-0 padding-0">
-            <div class="w3-cell-row margin-0 padding-0">
-                <!--
-                Services Assessment-->
-                <div class="w3-cell w3-mobile w3-padding w3-round-xxlarge kcd-hover-theme-black" style="width:33%;">
-                    <a href="services-ot-assessment.html" target="_self" style="height:100%">
+            <div class="w3-container margin-0 padding-0">
+                <!-- Services Assessment -->
+                <div class="w3-third w3-padding w3-round-xxlarge kcd-hover-theme-black">
+                    <a href="services-ot-assessment.html" target="_self">
                         <div class="kcd-theme-bw w3-padding w3-border w3-border-theme w3-round-xxlarge">
                             <p class="w3-xlarge w3-padding w3-theme w3-round-xxlarge" style="margin:0.2em 0em -0.1em 0em;"><b><i class="w3-xxlarge fa fa-drivers-license-o"></i><span id="services-ot-assessment"></span><br>OT Assessment</b></p>
                             <div>
@@ -229,10 +210,9 @@
                     </a>
                 </div>
 
-                <!--
-                Services Sensory Integration-->
-                <div class="w3-cell w3-mobile w3-padding w3-round-xxlarge kcd-hover-theme-black" style="width:33%;">
-                    <a href="services-sensory-int.html" target="_self" style="height:100%">
+                <!-- Services Sensory Integration -->
+                <div class="w3-third w3-padding w3-round-xxlarge kcd-hover-theme-black">
+                    <a href="services-sensory-int.html" target="_self">
                         <div class="kcd-theme-bw w3-padding w3-border w3-border-theme w3-round-xxlarge">
                             <p class="w3-xlarge w3-padding w3-theme w3-round-xxlarge" style="margin:0.2em 0em -0.1em 0em;"><b><i class="w3-xxlarge fa fa-connectdevelop"></i><span id="services-sensory-int"></span><br>Sensory Integration</b></p>
                             <div>
@@ -243,10 +223,9 @@
                     </a>
                 </div>
 
-                <!-- 
-                Services Sensory Diets-->
-                <div class="w3-cell w3-mobile w3-padding w3-round-xxlarge kcd-hover-theme-black" style="width:33%;">
-                    <a href="services-sensory-diet.html" target="_self" style="height:100%">
+                <!-- Services Sensory Diets -->
+                <div class="w3-third w3-padding w3-round-xxlarge kcd-hover-theme-black">
+                    <a href="services-sensory-diet.html" target="_self">
                         <div class="kcd-theme-bw w3-padding w3-border w3-border-theme w3-round-xxlarge">
                             <p class="w3-xlarge w3-padding w3-theme w3-round-xxlarge" style="margin:0.2em 0em -0.1em 0em;"><b><i class="w3-xxlarge fa fa-grav"></i><span id="services-sensory-diet"></span><br>Sensory diets</b></p>
                             <div>
@@ -257,11 +236,10 @@
                     </a>
                 </div>
             </div>
-            <div class="w3-cell-row margin-0 padding-0">
-                <!--
-                Services DIR-->
-                <div class="w3-cell w3-mobile w3-padding w3-round-xxlarge kcd-hover-theme-black" style="width:33%;">
-                    <a href="services-dir-floortime.html" target="_self" style="height:100%">
+            <div class="w3-container margin-0 padding-0">
+                <!-- Services DIR -->
+                <div class="w3-third w3-padding w3-round-xxlarge kcd-hover-theme-black">
+                    <a href="services-dir-floortime.html" target="_self">
                         <div class="kcd-theme-bw w3-padding w3-border w3-border-theme w3-round-xxlarge">
                             <p class="w3-xlarge w3-padding w3-theme w3-round-xxlarge" style="margin:0.2em 0em -0.1em 0em;"><b><i class="w3-xxlarge fa fa-street-view"></i><span id="services-dir-floortime"></span><br>DIR / Floortime</b></p>
                             <div>
@@ -271,10 +249,9 @@
                         </div>
                     </a>
                 </div>
-                <!--
-                Services Alert Program-->
-                <div class="w3-cell w3-mobile w3-padding w3-round-xxlarge kcd-hover-theme-black" style="width:33%;">
-                    <a href="services-alert-program.html" target="_self" style="height:100%">
+                <!-- Services Alert Program -->
+                <div class="w3-third w3-padding w3-round-xxlarge kcd-hover-theme-black">
+                    <a href="services-alert-program.html" target="_self">
                         <div class="kcd-theme-bw w3-padding w3-border w3-border-theme w3-round-xxlarge">
                             <p class="w3-xlarge w3-padding w3-theme w3-round-xxlarge" style="margin:0.2em 0em -0.1em 0em;"><b><i class="w3-xxlarge fa fa-bolt"></i><span id="services-alert-program"></span><br>Alert Program</b></p>
                             <div>
@@ -284,10 +261,9 @@
                         </div>
                     </a>
                 </div>
-                <!-- 
-                Services School Visits-->
-                <div class="w3-cell w3-mobile w3-padding w3-round-xxlarge kcd-hover-theme-black" style="width:33%;">
-                    <a href="services-school-visits.html" target="_self" style="height:100%">
+                <!-- Services School Visits -->
+                <div class="w3-third w3-padding w3-round-xxlarge kcd-hover-theme-black">
+                    <a href="services-school-visits.html" target="_self">
                         <div class="kcd-theme-bw w3-padding w3-border w3-border-theme w3-round-xxlarge">
                             <p class="w3-xlarge w3-padding w3-theme w3-round-xxlarge" style="margin:0.2em 0em -0.1em 0em;"><b><i class="w3-xxlarge fa fa-graduation-cap"></i><span id="services-school-visits"></span><br>School visits</b></p>
                             <div>
@@ -298,11 +274,10 @@
                     </a>
                 </div>
             </div>
-            <div class="w3-cell-row margin-0 padding-0">
-                <!-- 
-                Services Skills Development-->
-                <div class="w3-cell w3-mobile w3-padding w3-round-xxlarge kcd-hover-theme-black" style="width:33%;">
-                    <a href="services-skills-dev.html" target="_self" style="height:100%">
+            <div class="w3-container margin-0 padding-0">
+                <!-- Services Skills Development -->
+                <div class="w3-third w3-padding w3-round-xxlarge kcd-hover-theme-black">
+                    <a href="services-skills-dev.html" target="_self">
                         <div class="kcd-theme-bw w3-padding w3-border w3-border-theme w3-round-xxlarge">
                             <p class="w3-xlarge w3-padding w3-theme w3-round-xxlarge" style="margin:0.2em 0em -0.1em 0em;"><b><i class="w3-xxlarge fa fa-trophy"></i><span id="services-skills-dev"></span><br>Skills Development</b></p>
                             <div>
@@ -312,10 +287,9 @@
                         </div>
                     </a>
                 </div>
-                <!-- 
-                Services Handwriting-->
-                <div class="w3-cell w3-mobile w3-padding w3-round-xxlarge kcd-hover-theme-black" style="width:33%;">
-                    <a href="services-handwriting.html" target="_self" style="height:100%">
+                <!-- Services Handwriting -->
+                <div class="w3-third w3-padding w3-round-xxlarge kcd-hover-theme-black">
+                    <a href="services-handwriting.html" target="_self">
                         <div class="kcd-theme-bw w3-padding w3-border w3-border-theme w3-round-xxlarge">
                             <p class="w3-xlarge w3-padding w3-theme w3-round-xxlarge" style="margin:0.2em 0em -0.1em 0em;"><b><i class="w3-xxlarge fa fa-edit"></i><span id="services-handwriting"></span><br>Handwriting</b></p>
                             <div>
@@ -325,9 +299,9 @@
                         </div>
                     </a>
                 </div>
-                <!--Services Parent Support-->
-                <div class="w3-cell w3-mobile w3-padding w3-round-xxlarge kcd-hover-theme-black" style="width:33%;">
-                    <a href="services-parent-support.html" target="_self" style="height:100%">
+                <!-- Services Parent Support -->
+                <div class="w3-third w3-padding w3-round-xxlarge kcd-hover-theme-black">
+                    <a href="services-parent-support.html" target="_self">
                         <div class="kcd-theme-bw w3-padding w3-border w3-border-theme w3-round-xxlarge">
                             <p class="w3-xlarge w3-padding w3-theme w3-round-xxlarge" style="margin:0.2em 0em -0.1em 0em;"><b><i class="w3-xxlarge fa fa-user"></i><span id="services-parent-support"></span><br>Parent support</b></p>
                             <div>
@@ -343,35 +317,32 @@
     <div id="filler" class="w3-container w3-white w3-padding-64"></div>
 
     <!-- Topics Section -->
-
     <div class="w3-container w3-center kcd-theme-blb">
         <p class="w3-center w3-xxxlarge"><b><i class="fa fa-book"></i> <span id="topics"></span> TOPICS <i class="fa fa-book"></i></b></p>
-        <div class="w3-cell-row margin-0 padding-0">
-            <!--
-            Topic Autism Spectrum Disorder-->
-            <div class=" w3-cell w3-mobile kcd-theme-lb w3-padding w3-round-xxlarge kcd-hover-theme-black" style="width:50%;">
+        <div class="w3-container margin-0 padding-0">
+            <!-- Topic Autism Spectrum Disorder -->
+            <div class="w3-half kcd-theme-lb w3-padding w3-round-xxlarge kcd-hover-theme-black">
                 <a href="topics-autism.html" target="_self" class="w3-theme">
                     <div class="w3-theme w3-padding w3-border w3-border-theme w3-round-xxlarge">
                         <p class="w3-xlarge w3-padding kcd-theme-blb w3-round-xxlarge" style="margin:0.2em 0em -0.1em 0em;"><b><i class="w3-xxlarge fa fa-puzzle-piece"></i><br><span id="topics-autism"></span>Autism Spectrum Disorder</b></p>
                         <div class="w3-theme w3-justify w3-large">
                             <br>
-                            <p style="text-align: center;font-weight: 500"><b>Autism South Africa defines Autism Spectrum Disorder (ASD):</b>
+                            <p><b>Autism South Africa defines Autism Spectrum Disorder (ASD):</b>
                             </p>
                             <p>
-                                <i><q>A group of complex disorders of brain development.<br><br>
-                                ASD is a developmental disability and people with ASD may communicate, interact, behave and learn in ways that are different from most other people.<br><br>
+                                <i><q>A group of complex disorders of brain development.</q></i><br><br>
+                                <i><q>ASD is a developmental disability and people with ASD may communicate, interact, behave and learn in ways that are different from most other people.
                                 The learning, thinking and problem-solving abilities of people with ASD can range from gifted to severely impaired.<br><br>
-                                Some people with ASD need high support (a lot of help and intensive intervention) while others need low support (less help and less intensive intervention).</q></i>
+                                Some people with ASD need high support &#40;a lot of help and intensive intervention&#41; while others need low support &#40;less help and less intensive intervention&#41;.</q></i>
                             </p>
                         </div>
-                        <br><br><br>
+                        <br><br><br><br>
                         <p style="text-align: center">Read more ...</p>
                     </div>
                 </a>
             </div>
-            <!--
-            Attention and Concentration-->
-            <div class="w3-cell w3-mobile kcd-theme-lb w3-padding  w3-round-xxlarge kcd-hover-theme-black" style="width:50%;">
+            <!-- Topic Attention and Concentration -->
+            <div class="w3-half kd-theme-lb w3-padding w3-round-xxlarge kcd-hover-theme-black">
                 <a href="topics-attention.html" target="_self" class="w3-theme">
                     <div class="w3-theme w3-padding w3-border w3-border-theme w3-round-xxlarge">
                         <p class="w3-xlarge w3-padding kcd-theme-blb w3-round-xxlarge" style="margin:0.2em 0em -0.1em 0em;"><b><i class="w3-xxlarge fa fa-superpowers"></i><br><span id="topics-attention"></span>Attention and Concentration</b></p>
@@ -396,10 +367,9 @@
         </div>
     </div>
     <div id="filler" class=" w3-container kcd-theme-blb w3-padding-64"></div>
-    <div id="filler" class=" w3-container kcd-theme-blb w3-padding-64"></div>
+    <div id="filler" class=" w3-container kcd-theme-blb  w3-hide-small w3-padding-64"></div>
 
-    <!-- 
-    Contact Section -->
+    <!-- Contact Section -->
     <div class="w3-container w3-center w3-text-theme">
         <p class="w3-center w3-xxxlarge"><b><span id="contact"></span> CONTACT US </b></p>
         <div>
@@ -407,11 +377,11 @@
                 <p class="w3-left w3-large" style="text-align:left;">
                     Please note that we are contracted <b>out of</b> medical aid.<br>Credit/Debit card facilities are available at the practice.
                     <br>
-                    <br>Our office is open Mo to Fri between 08h00 and 16h30<br>Alternatively email us at info@kidzcandurban.com<br>Use the link below to send us a message now.
+                    <br>Our practice is open Mo to Fri between 08h00 and 16h30<br>Alternatively email us at info@kidzcandurban.com<br>Or use the link below to send us a message.
                     <br><br><i class="fa fa-phone fa-3x w3-margin-right w3-text-theme"></i> Phone: (064) 899 4748<br><br>
                     <i class="fa fa-envelope fa-3x w3-margin-right w3-text-theme"></i> Email: info@kidzcandurban.com<br><br></p>
 
-                <form action="https://formspree.io/paul@kidzcandurban.com" method="POST">
+                <form action="https://formspree.io/info@kidzcandurban.com" method="POST">
                     <p class="w3-large"><input class="w3-input w3-border" type="text" placeholder="Name" required name="name"></p>
                     <p class="w3-large"><input class="w3-input w3-border" type="email" placeholder="Email" required name="_replyto"></p>
                     <p class="w3-large"><textarea class="w3-input w3-border" type="text" rows="3" placeholder=" Message" required name="message"></textarea> </p>
@@ -424,7 +394,7 @@
             </div>
             <div class="w3-half w3-padding">
                 <p class="w3-large w3-text-black" style="text-align:center; padding-top:1.5em;"><i class="fa fa-map-marker fa-3x w3-margin-right w3-text-red"></i><br>We are located in the Whizz Kidz Special Needs Centre<br>5 Gordon road, Hatton Estates, Pinetown.<br>On Google maps: Type in: <b>5 Gordon road, Pinetown</b></p>
-                <!--Add Google Maps -->
+                <!-- Add Google Maps -->
                 <div id="googleMap" class="w3-display-container" style="width:100%;height:510px;"></div>
             </div>
         </div>
@@ -435,44 +405,35 @@
 
 
 
-    <!--
-    Footer-->
+    <!-- Footer -->
     <footer>
-        <div class="w3-container w3-theme">
-            <div class="w3-third">
-                <p><b>Website design</b>
-                    <ul style="list-style-type: none;">
-                        <li>
-                            paul@kidzcandurban.com
-                        </li>
-                        <li>
-                            <i class=" fa fa-copyright"></i>KidzCanDurban - All rights reserved
-                        </li>
+        <div class="w3-container w3-theme w3-cell w3-mobile" style="width:40%;">
+            <p><b>Website design</b>
+                <ul style=" list-style-type: none;">
+                    <li>
+                        paul@kidzcandurban.com
+                    </li>
+                    <li>
+                        <i class=" fa fa-copyright"></i>KidzCanDurban - All rights reserved
+                    </li>
+                </ul>
+        </div>
 
-                    </ul>
-            </div>
+        <div class="w3-container w3-theme w3-cell w3-mobile w3-center" style="width:30%;">
+            <img src="images/kidcanlogo2.png" alt="logo" class="w3-round" style=" width:45%;height:auto;margin-top:10px">
+        </div>
 
-            <div class="w3-third">
-                <div class="w3-center">
-                    <img src="images/kidcanlogo2.png" alt="logo" class="w3-round-large" style=" width:42%;height:auto;margin-top: 12px;">
-                </div>
-            </div>
+        <div class="w3-container w3-theme w3-cell w3-mobile">
+            <ul style="list-style-type: none;">
+                <li> <b>Powered by : </b><a href=" http://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" style=";text-decoration: underline;">W3.CSS </a>
+                </li>
 
-            <div class="w3-third">
-                <div class="w3-right">
+                <li style="margin-left:5.5em"><a href=" http://fontawesome.io" title="Font Awesome" target="_blank" style="text-decoration: underline;">Font_Awesome</a></li>
 
-                    <ul style="list-style-type: none;">
-                        <li> <b>Powered by : </b><a href=" http://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" style="text-decoration: underline;">W3.CSS </a>
-                        </li>
+                <li style="margin-left:5.5em"><a href="http://www.formspree.io" title="formspree" target="_blank" style="text-decoration: underline;">Formspree</a></li>
 
-                        <li style="margin-left:5.5em"><a href=" http://fontawesome.io" title="Font Awesome" target="_blank" style="text-decoration: underline;">Font_Awesome</a></li>
-
-                        <li style="margin-left:5.5em"><a href="http://www.formspree.io" title="formspree" target="_blank" style="text-decoration: underline;">Formspree</a></li>
-
-                        <li style="margin-left:5.5em"><a href="http://pages.github.com/" title="Github pages" target="_blank" style="text-decoration: underline;">Github_pages</a></li>
-                    </ul>
-                </div>
-            </div>
+                <li style="margin-left:5.5em"><a href="http://pages.github.com/" title="Github pages" target="_blank" style="text-decoration: underline;">Github_pages</a></li>
+            </ul>
         </div>
     </footer>
 
@@ -495,7 +456,7 @@
             marker.setMap(map);
         }
 
-        <!-- Toggle between showing and hiding the sidebar when clicking the menu icon-->
+        <!-- Toggle between showing and hiding the sidebar when clicking the menu icon -->
         var mySidebar = document.getElementById("mySidebar");
 
         function w3_open() {
@@ -506,7 +467,7 @@
             }
         }
 
-        <!-- Close the sidebar with the close button-->
+        <!-- Close the sidebar with the close button -->
         function w3_close() {
             mySidebar.style.display = "none";
         }
