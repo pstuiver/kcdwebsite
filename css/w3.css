@@ -491,7 +491,7 @@ a {
 }
 */
 
--->.w3-dropdown-content {
+.w3-dropdown-content {
     cursor: auto;
     color: #000;
     background-color: #fff;
@@ -1183,7 +1183,7 @@ a {
 }
 
 .w3-animate-zoom {
-    animation: animatezoom 0.8s
+    animation: animatezoom 0.5s
 }
 
 @keyframes animatezoom {
