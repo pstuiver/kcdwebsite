@@ -18,7 +18,7 @@ html {
 }
 
 
-/* Adjust the spacing of list items to improve list displays */
+/* Adjust the spacing of list items to improve the formatting of list displays */
 
 li {
     line-height: 1.6;
@@ -46,7 +46,7 @@ h3 {
 
 h3 span {
     position: absolute;
-    top: -100px;
+    top: -110px;
 }
 
 p {
@@ -55,15 +55,103 @@ p {
 
 p span {
     position: absolute;
-    top: -100px;
+    top: -110px;
 }
 
 
-/* To compensate for accidentally scrolling the page body wile looking at modal content
-   links are used to return user to the modal icon when modal content is closed.
-   I could not get the text-decoration in modal content to display properly
+/* Links are used extensively to open secondary html pages.
+   I could not get the text-decoration to display none in these links
    other than to make decoration:none the default */
 
 a {
     text-decoration: none;
+}
+
+
+/* CUSTOM COLOUR SCHEMES */
+
+.w3-theme-dark {
+    color: #fff !important;
+    background-color: #001f7d !important
+}
+
+.w3-theme-action {
+    color: #fff !important;
+    background-color: #001f7d !important
+}
+
+.w3-theme {
+    color: #ffffff !important;
+    background-color: #003ef8 !important
+}
+
+.w3-theme-modal {
+    color: #f9f9f9 !important;
+    background-color: #000000 !important
+}
+
+.w3-text-theme {
+    color: #003ef8 !important
+}
+
+.w3-border-theme {
+    border-color: #003ef8 !important
+}
+
+.w3-hover-theme-dark:hover {
+    color: #fff !important;
+    background-color: #003ef8 !important
+}
+
+.w3-hover-theme-light:hover {
+    color: #003ef8 !important;
+    background-color: #fff !important
+}
+
+.kcd-hover-theme-light:hover {
+    color: #fff !important;
+    background-color: #fff !important
+}
+
+.kcd-hover-theme-black:hover {
+    color: #000 !important;
+    background-color: #000 !important
+}
+
+.kcd-hover-theme-lbb:hover {
+    color: #003ef8 !important;
+    background-color: #bdd2e5 !important
+}
+
+.w3-hover-text-theme {
+    color: #003ef8 !important
+}
+
+.w3-hover-border-theme:hover {
+    border-color: #003ef8 !important
+}
+
+.kcd-theme-bw {
+    color: #003ef8 !important;
+    background-color: #fff !important
+}
+
+.kcd-theme-blb {
+    color: #003ef8 !important;
+    background-color: #bdd2e5 !important
+}
+
+.kcd-text-theme-lb {
+    color: #bdd2e5 !important
+}
+
+.w3-dropdown-hover:first-child {
+    color: #003ef8 !important;
+    background-color: #fff !important
+}
+
+.w3-dropdown-hover:hover>.w3-button:first-child,
+.w3-dropdown-click:hover>.w3-button:first-child {
+    background-color: #fff;
+    color: #003ef8
 }
