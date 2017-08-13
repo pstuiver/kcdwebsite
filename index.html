@@ -392,6 +392,23 @@
     </footer>
 
 
+    <!-- Toggle between showing and hiding the sidebar when clicking the menu icon-->
+    <script>
+        var mySidebar = document.getElementById("mySidebar");
+
+        function w3_open() {
+            if (mySidebar.style.display === 'block') {
+                mySidebar.style.display = 'none';
+            } else {
+                mySidebar.style.display = 'block';
+            }
+        } <!-- Close the sidebar with the close button-->
+        function w3_close() {
+            mySidebar.style.display = "none";
+        }
+
+    </script>
+
     <!-- Script for Google Maps -->
     <script>
         function myMap() {
@@ -410,27 +427,12 @@
             marker.setMap(map);
         }
 
-        <!-- Toggle between showing and hiding the sidebar when clicking the menu icon-->
-        var mySidebar = document.getElementById("mySidebar");
-
-        function w3_open() {
-            if (mySidebar.style.display === 'block') {
-                mySidebar.style.display = 'none';
-            } else {
-                mySidebar.style.display = 'block';
-            }
-        }
-
-        <!-- Close the sidebar with the close button-->
-        function w3_close() {
-            mySidebar.style.display = "none";
-        }
-
     </script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCwVkBCQ1Uh-MJ7Nvrijz-9NJn3qZL4kcY&callback=myMap">
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCwVkBCQ1Uh-MJ7Nvrijz-9NJn3qZL4kcY&callback=myMap" async defer>
 
 
     </script>
+
 </body>
 
 </html>
