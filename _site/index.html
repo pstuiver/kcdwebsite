@@ -363,8 +363,8 @@
     <div class="w3-container w3-center kcd-theme-blb">
         <p class="w3-center w3-xxxlarge"><b><span id="contact"></span> CONTACT US </b></p>
         <div class="w3-half w3-padding w3-text-black">
-            <p class="w3-left w3-large" style="text-align:left;">Our practice is open Mon to Fri between 08h00 and 16h30<br><br>Please note that we work on a pay per appointment basis.<br>Credit/Debit card facilities are available at the practice.<br>Clients are resposible for submitting claims to their medical aid.<br><br>Contact us by phone or by email or use the link below to send us a message.<br><br><i class="fas fa-phone fa-3x w3-margin-right w3-text-theme"></i>&nbsp; Phone:&nbsp;(064)&nbsp;899&nbsp;4748<br><br>
-                <i class="fas fa-envelope fa-3x w3-margin-right w3-text-theme"></i>Email:&nbsp;info@kidzcandurban.com<br><br></p>
+            <p class="w3-left w3-large" style="text-align:left;">Our practice is open Mon to Fri between 08h00 and 16h30<br><br> Please note that we work on a pay per appointment basis.<br>Credit/Debit card facilities are available at the practice.<br>Clients are resposible for submitting claims to their medical aid.<br><br>Contact us by phone or by email or use the link below to send us a message.<br><br> <i class="fas fa-phone fa-2x w3-margin-right w3-text-theme"></i>&nbsp; Phone:&nbsp;(064)&nbsp;899&nbsp;4748<br><br>
+                <i class="fas fa-envelope fa-2x w3-margin-right w3-text-theme"></i>Email:&nbsp;info@kidzcandurban.com<br></p>
             <form action="https://formspree.io/info@kidzcandurban.com" method="POST">
                 <p class="w3-large"><input class="w3-input w3-border" type="text" placeholder="Name" required name="name"></p>
                 <p class="w3-large"><input class="w3-input w3-border" type="email" placeholder="Email" required name="_replyto"></p>
@@ -373,14 +373,14 @@
                 <button class="w3-button w3-theme w3-margin" type="submit" value="Send"><i class="fas fa-paper-plane"></i> SEND MESSAGE</button>
             </form>
         </div>
-        <div class="w3-half w3-padding">
-            <p class="w3-large w3-text-black" style="text-align:center;margin-top:16px">
-                We are located in the Whizz Kidz Special Needs Centre<br>5 Gordon road, Hatton Estates, Pinetown.<br>On Google maps: Type in: <b>5&nbsp;Gordon&nbsp;road, Pinetown</b></p>
-            <!-- Add Google Maps -->
-            <div id="googleMap" class="w3-display-container" style="width:100%;height:550px;"></div>
+        <div class="w3-half w3-padding-0">
+            <p class="w3-large w3-text-black" style="text-align:center;margin-top:26px">
+                We are located in the Whizz Kidz Special Needs Centre<br>5 Gordon Road, Hatton Estates, Pinetown.<br>On Google maps: Type in: <b>5&nbsp;Gordon&nbsp;Road, Pinetown</b></p>
+            <!-- Add link to Google Maps -->
+            <a href="googlemap.html" target="_self"><img src="./images/kcdmap.jpg" style="margin-top:20px;max-width:100%;">
+            </a>
         </div>
     </div>
-
     <div class="w3-container w3-hide-small kcd-theme-blb w3-padding-32"></div>
 
     <!-- Footer -->
@@ -429,31 +429,6 @@
         }
 
     </script>
-
-    <!-- Script for Google Maps -->
-    <script>
-        function myMap() {
-            myCenter = new google.maps.LatLng(-29.8301384, 30.8720753);
-            var mapOptions = {
-                center: myCenter,
-                zoom: 15,
-                scrollwheel: false,
-                draggable: false,
-                mapTypeId: google.maps.MapTypeId.ROADMAP
-            };
-            var map = new google.maps.Map(document.getElementById("googleMap"), mapOptions);
-            var marker = new google.maps.Marker({
-                position: myCenter,
-            });
-            marker.setMap(map);
-        }
-
-    </script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCwVkBCQ1Uh-MJ7Nvrijz-9NJn3qZL4kcY&callback=myMap" async defer>
-
-
-    </script>
-
 </body>
 
 </html>
