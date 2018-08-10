@@ -1,322 +1,207 @@
 <!DOCTYPE html>
 <html lang="en">
-<title>KidzCanDurban</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="css/combined-min.css">
-<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 
 <head>
+    <title>KidzCanDurban</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="favicon-32x32.png">
+    <link href="Fontawesome/css/all.css" rel="stylesheet">
+    <link href="css/kcdwebsite-min.css" rel="stylesheet" type="text/css">
 </head>
 
-<body style="max-width:1280px;margin:auto;">
-    <!-- Company info and Navbar (Navbar fixed on top) -->
-    <div class="w3-top w3-white" style="max-width:1280px">
-        <div class="w3-display-container">
-            <h2 class="w3-center w3-hide-small" style="margin:0px 0px 0px 0px;">Elsje&nbsp;Stuiver -&nbsp;Occupational&nbsp;Therapy</h2>
-            <h4 class="w3-center w3-hide-large w3-hide-medium" style="margin:-3px 0px 0px 0px;">Elsje&nbsp;Stuiver -&nbsp;Occupational&nbsp;Therapy</h4>
-            <p class="w3-center w3-large w3-hide-small w3-hide-medium" style="margin:-5px 0px 0px 0px;">HPCSA reg. OT0073342 &nbsp; &nbsp; &nbsp; Practice no. 066 000 0684414</p>
-            <img class="w3-left w3-hide-small w3-hide-medium" src="images/kidzcanlogo1.png" alt="Kidzcan logo" style="margin:-65px 0px 0px 10px;">
-        </div>
-        <div class="w3-container padding-0 margin-0">
-            <div class="w3-bar w3-theme w3-large w3-border-bottom w3-border-white" id="Navbar" style="font-weight:500;">
-                <!-- Right-sided navbar links -->
-                <div class="w3-right w3-hide-small">
-                    <div class="w3-bar w3-theme">
-                        <a href="#home" class="w3-bar-item w3-button" style="margin-top:-2px;"><i class="fas fa-home"></i> Home</a>
-                        <div class="w3-dropdown-hover">
-                            <a href="#about" class="w3-button"><i class="fas fa-certificate"></i> About </a>
-                            <div class="w3-dropdown-content w3-card-4 w3-bar-block w3-medium w3-text-theme">
-                                <a href="#about-therapist" class="w3-bar-item w3-button w3-hover-theme-dark">Therapist</a>
-                                <a href="about-ot.html" target="_self" class="w3-bar-item w3-button w3-hover-theme-dark">Occ Therapy</a>
-                            </div>
-                        </div>
-                        <div class="w3-dropdown-hover">
-                            <a href="#services" class="w3-button"><i class="fas fa-child"></i> Services </a>
-                            <div class="w3-dropdown-content w3-card-4 w3-bar-block w3-medium w3-text-theme">
-                                <a href="services-ot-assessment.html" target="_self" class="w3-bar-item w3-button w3-hover-theme-dark">OT Assessment</a>
-                                <a href="services-sensory-int.html" target="_self" class="w3-bar-item w3-button w3-hover-theme-dark">Sensory Integration</a>
-                                <a href="services-sensory-diet.html" target="_self" class="w3-bar-item w3-button w3-hover-theme-dark">Sensory diets</a>
-                                <a href="services-dir-floortime.html" target="_self" class="w3-bar-item w3-button w3-hover-theme-dark">DIR/Floortime</a>
-                                <a href="services-alert-program.html" target="_self" class="w3-bar-item w3-button w3-hover-theme-dark">Alert programme</a>
-                                <a href="services-school-visits.html" target="_self" class="w3-bar-item w3-button w3-hover-theme-dark">School visits</a>
-                                <a href="services-skills-dev.html" target="_self" class="w3-bar-item w3-button w3-hover-theme-dark">Skills Development</a>
-                                <a href="services-handwriting.html" target="_self" class="w3-bar-item w3-button w3-hover-theme-dark">Handwriting</a>
-                                <a href="services-parent-support.html" target="_self" class="w3-bar-item w3-button w3-hover-theme-dark">Parent support</a>
-                            </div>
-                        </div>
-                        <div class="w3-dropdown-hover">
-                            <a href="#topics" class="w3-button"><i class="fas fa-book"></i> Topics </a>
-                            <div class="w3-dropdown-content w3-card-4 w3-bar-block w3-medium w3-text-theme">
-                                <a href="topics-autism.html" target="_self" class="w3-bar-item w3-button w3-hover-theme-dark">Autism</a>
-                                <a href="topics-attention.html" target="_self" class="w3-bar-item w3-button w3-hover-theme-dark">Concentration</a>
-                            </div>
-                        </div>
-                        <a href="news-blog.html" target="_self" class="w3-bar-item w3-button" style="margin-top:-2px;"><i class="fab fa-blogger-b"></i> News</a>
-                        <a href="#contact" class="w3-bar-item w3-button" style="margin-top:-2px;"><i class="fas fa-envelope"></i> Contact</a>
-                    </div>
-                </div>
-                <!-- Hide right-floated links on small screens and replace them with a menu icon -->
-                <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium w3-theme" onclick="w3_open()">
-                    <i class="fas fa-bars"></i>
-                </a>
-            </div>
+<body>
+    <div class="header">
+        <img src="images/kidzcanlogo3.png" alt="Kidzcan logo">
+        <p class="header-l-text">Elsje Stuiver - Occupational Therapy</p><br>
+        <p class="header-s-text">HPCSA reg. OT0073342 &nbsp; &nbsp; &nbsp;Practice no. 0684414</p>
+        <div class="navbar white-text-blue-bg">
+            <a href="#home"><i class="fas fa-home"></i> Home</a>
+            <a href="#about"><i class="fas fa-certificate"></i> About</a>
+            <a href="#services"><i class="fas fa-child"></i> Services</a>
+            <a href="#topics"><i class="fas fa-book"></i> Topics</a>
+            <a href="#news"><i class="fab fa-blogger-b"></i> News</a>
+            <a href="#contact"><i class="fas fa-envelope"></i> Contact</a>
         </div>
     </div>
-    <!-- Sidebar on small screens when clicking the menu icon -->
-    <nav class="w3-sidebar w3-theme w3-bar-block w3-card w3-animate-left w3-hide-medium w3-hide-large w3-hover-theme-dark" style="display:none" id="mySidebar">
-        <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large">Close ×</a>
-        <a href="#home" onclick="w3_close()" class="w3-bar-item w3-button" style="width:75%;"> Home</a>
-        <div class="w3-dropdown-hover" style="width:75%;">
-            <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button"> About</a>
-            <div class="w3-dropdown-content w3-card-4 w3-bar-block w3-medium w3-text-theme">
-                <a href="#about-therapist" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-theme-dark">Therapist</a>
-                <a href="about-ot.html" target="_self" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-theme-dark">Occ Therapy</a>
+    <main>
+        <!-- Homepage -->
+        <div class="homepage-padding blue-text-white-bg"><span id="home"></span></div>
+        <div class="homepage" style="width:100%">
+            <div class="homepage-extra">
+                <img src="images/kidz2.jpg" alt="kids in therapy"><br><img src="images/kidz3.jpg" alt="kids in therapy"><br><img src="images/toy1.jpg" alt="kids toys"></div>
+            <div class="homepage-fallback"><img src="images/kidz5.jpg" alt="kids in therapy">
+                <p><strong style="font-size: 1.5em">Unlocking your child&#39;s potential</strong><br>We are an independent private practice located in Pinetown, Durban, South Africa.</p>
+                <p>We specialise in assessing and treating problems that can affect children at home, at school or with friends.</p>
+                <p>Our therapy is fun and we encourage family participation.</p>
+                <p>Our specialised input enables children to discover their strengths, to overcome their difficulties and so unlock their true potential.</p>
+                <p><strong style="font-size: 1.25em">We offer free telephone consultations</strong><br>During this 15 minute conversation you can share concerns regarding your child with the therapist to explore options.</p><br>
+                <a class="white-text-blue-bg" href="#contact"> Contact us </a>
             </div>
+            <div class="homepage-extra"><img src="images/kidz6.jpg" alt="kids in therapy"><br><img src="images/kidz4.jpg" alt="kids in therapy"><br><img src="images/toy3.jpg" alt="kids toys"></div>
+            <div style="clear:both; height:2em"></div>
         </div>
-        <div class="w3-dropdown-hover" style="width:75%;">
-            <a href="#services" onclick="w3_close()" class="w3-bar-item w3-button"> Services</a>
-            <div class="w3-dropdown-content w3-card-4 w3-bar-block w3-medium w3-text-theme">
-                <a href="services-ot-assessment.html" target="_self" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-theme-dark">OT Assessment</a>
-                <a href="services-sensory-int.html" target="_self" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-theme-dark">Sensory Integration</a>
-                <a href="services-sensory-diet.html" target="_self" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-theme-dark">Sensory diets</a>
-                <a href="services-dir-floortime.html" target="_self" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-theme-dark">DIR/Floortime</a>
-                <a href="services-alert-program.html" target="_self" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-theme-dark">Alert programme</a>
-                <a href="services-school-visits.html" target="_self" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-theme-dark">School visits</a>
-                <a href="services-skills-dev.html" target="_self" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-theme-dark">Skills Development</a>
-                <a href="services-handwriting.html" target="_self" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-theme-dark">Handwriting</a>
-                <a href="services-parent-support.html" target="_self" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-theme-dark">Parent support</a>
-            </div>
-        </div>
-        <div class="w3-dropdown-hover" style="width:75%;">
-            <a href="#topics" onclick="w3_close()" class="w3-bar-item w3-button"> Topics</a>
-            <div class="w3-dropdown-content w3-card-4 w3-bar-block w3-medium w3-text-theme">
-                <a href="topics-autism.html" target="_self" class="w3-bar-item w3-button w3-hover-theme-dark">Autism</a>
-                <a href="topics-attention.html" target="_self" class="w3-bar-item w3-button w3-hover-theme-dark">Concentration</a>
-            </div>
-        </div>
-        <a href="news-blog.html" target="_self" onclick="w3_close()" class="w3-bar-item w3-button" style="width:75%;"> News</a>
-        <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button" style="width:75%;"> Contact</a>
-    </nav>
 
-    <!-- Home page -->
-    <div id="home" class="w3-white" style="height:100px;max-width:1280px;"></div>
-    <div class="w3-container w3-white w3-center" style="max-width:1280px;">
-        <div>
-            <img src="images/Kidz2.jpg" alt="kidz" class="w3-image w3-hide-small w3-margin w3-round-xlarge" style="width:23%;height:auto;">
-            <img src="images/Kidz5.jpg" alt="kidz" class="w3-image w3-margin w3-round-xlarge" style="width:23%;min-width:200px; height:auto;">
-            <img src="images/Kidz6.jpg" alt="kidz" class="w3-image w3-hide-small w3-margin w3-round-xlarge" style="width:23%;height:auto;">
-        </div>
-        <div class="w3-container w3-white">
-            <div class="w3-display-container">
-                <div class="w3-text-theme w3-large" style="min-width:66%;">
-                    <p><b>Unlocking your child&#39;s potential</b><br>We are an independent private practice in Pinetown,&nbsp;Durban.<br>We specialise in assessing and treating&nbsp;problems<br>that can affect children at home, at school or with&nbsp;friends.<br>Our therapy is fun and we encourage family&nbsp;participation.<br>Our specialised input enables children to discover their&nbsp;strengths,<br>to overcome their difficulties and so unlock their&nbsp;true&nbsp;potential.<br><br><b>We offer free telephone consultations</b><br>You can share your concerns regarding your child with&nbsp;the&nbsp;therapist<br>during this 15 minute conversation to explore options.</p><br>
-                    <div>
-                        <a href="#contact" class="w3-padding w3-center w3-xlarge w3-theme w3-round-xlarge w3-margin w3-border w3-border-theme w3-hover-theme-light">Contact us</a>
+        <!-- About Section -->
+        <div class=" blue-text-liteblue-bg"><span id="about"></span>
+            <div class="section-head">
+                <p><i class="fas fa-certificate"></i> ABOUT <i class="fas fa-certificate"></i></p>
+            </div>
+            <div class="grid">
+                <div class="grid-item">
+                    <div class="multicon-body-2col blue-text-blue-bg">
+                        <p class="multicon-logo blue-text-liteblue-bg"><i class="fas fa-certificate fa-2x"></i><br><strong>About - Our Therapist</strong></p>
+                        <div class="multicon-content-about white-text-blue-bg">
+                            <div style="align-content:center;"><img src="images/elsje.png" alt="our therapist" style="display: block; max-width:300px;width:90%;margin: 1em auto;">
+                            </div>
+                            <p style="text-align: center"><strong>Elsje Stuiver</strong></p>
+                            <p>Elsje completed her Occupational Therapy training at the University of Pretoria in 2008. Since then she has worked in paediatric private practice in South Africa and the United Kingdom delivering services to schools, nurseries, special education centres and orphanages.</p>
+                            <p>She obtained post graduate qualifications in <a class="white-text-blue-bg" href="services-sensory-int.html" target="_self">Sensory Integration &#40;SI&#41;</a> and <a class="white-text-blue-bg" href="services-dir-floortime.html" target="_self">DIR Floortime</a>. Through working in a multidisciplinary setting, Elsje has gained knowledge and skills in areas related to communication, relationship building, behavioural modification, play and environmental adaptation.</p>
+                            <p>Elsje is fluent in English and Afrikaans and can provide therapy, consultation and feedback in both languages. She has worked extensively with infants and children with special educational needs, learning difficulties, Attention Deficit Disorder, global developmental delay and sensory processing dysfunction.</p>
+                            <p>Her specialist interest in Autism Spectrum Disorder has led her to complete a variety of courses related to this topic.</p>
+                            <p>Elsje places an emphasis on family involvement and education and actively encourages parents and teachers to engage in the child’s therapy process.</p>
+                            <p>She aims to provide needs specific, family-orientated and play-based input in order to support each child in reaching their full potential.</p>
+                        </div>
                     </div>
                 </div>
-                <img src="images/Kidz3.jpg" alt="kidz" class="w3-image w3-display-topleft w3-hide-small w3-hide-medium w3-round-xlarge" style="width:15%;height:auto;margin-left:50px;">
-                <img src="images/Kidz4.jpg" alt="kidz" class="w3-image w3-display-topright w3-hide-small w3-hide-medium w3-round-xlarge" style="width:15%;height:auto;margin-right:50px;">
-                <img src="images/Toy1.jpg" alt="toy" class="w3-image w3-display-bottomleft w3-hide-small w3-round-xlarge" style="width:22%;height:auto;margin-bottom:-80px;margin-left:50px;">
-                <img src="images/Toy3.jpg" alt="toy" class="w3-image w3-display-bottomright w3-hide-small w3-round-xlarge" style="width:23%;height:auto;margin-bottom:-80px;margin-right:50px;">
-            </div>
-        </div>
-    </div>
-    <div id="filler" class="w3-container w3-white w3-padding-32"></div>
-    <div id="filler" class="w3-container w3-white w3-hide-small w3-padding-64"></div>
-
-    <!-- About Section -->
-    <div class="w3-container w3-center kcd-theme-blb">
-        <p class="w3-center w3-xxxlarge"><b><i class="fas fa-certificate"></i><span id="about"></span> ABOUT <i class="fas fa-certificate"></i></b></p>
-        <!-- Left side of About page -->
-        <!-- About the Therapist -->
-        <div class="w3-container w3-theme w3-round-xxlarge w3-padding">
-            <h3 class="w3-padding w3-margin kcd-theme-blb w3-round-xxlarge"><i class="fas fa-certificate fa-2x">
-                        </i><span id="about-therapist"></span><br><b>Our Therapist</b><br></h3>
-            <div class="w3-third">
-                <h4 class="w3-center" style="margin-bottom:-5px;"><b>Elsje Stuiver</b></h4>
-                <img src="images/Elsje2.jpg" alt="Me" class="w3-image w3-round-xlarge w3-margin" style="width:90%;height:auto;min-width:180px;">
-            </div>
-            <div class="w3-twothird w3-justify">
-                <div class="w3-hide-small" style="padding-top:2.5em;"></div>
-                <div class="w3-justify w3-large" style="margin:0em 1em 1em 1em;">
-                    <p>Elsje completed her Occupational Therapy training at the University of Pretoria in 2008. Since then she has worked in paediatric private practice in South Africa and the United Kingdom delivering services to schools, nurseries, special education centres and orphanages.</p>
-                    <p>She obtained post graduate qualifications in <a href="services-sensory-int.html" target="_self" style="text-decoration:underline;">Sensory Integration &#40;SI&#41;</a> and <a href="services-dir-floortime.html" target="_self" style="text-decoration:underline;">DIR Floortime</a>. Through working in a multidisciplinary setting, Elsje has gained knowledge and skills in areas related to communication, relationship building, behavioural modification, play and environmental adaptation.</p>
-                    <p>Elsje is fluent in both English and Afrikaans and can provide therapy, consultation and feedback in both languages. She has worked extensively with infants and children with special educational needs, learning difficulties, Attention Deficit Disorder, global developmental delay and sensory processing dysfunction.</p>
-                    <p>Her specialist interest in Autism Spectrum Disorder has led her to complete a variety of courses related to this topic. Elsje places an emphasis on family involvement and education and actively encourages parents and teachers to engage in the child’s therapy process.</p>
-                    <p>She aims to provide needs specific, family-orientated and play-based input in order to support each child in reaching their full potential.</p>
-                </div>
-            </div>
-        </div>
-        <!-- Right side of About page -->
-        <!-- About Occupational Therapy -->
-        <div class="w3-padding-64">
-            <a href="about-ot.html" target="_self" class="w3-theme w3-round-xlarge">
-                <div class="w3-theme w3-border w3-border-theme w3-round-xxlarge">
-                    <h3 class="w3-padding w3-margin kcd-theme-blb w3-round-xxlarge"><i class="fas fa-certificate
-                        fa-2x">
-                        </i><span id="about-ot"></span> <br><b>Occupational&nbsp;Therapy</b></h3>
-                    <div class="w3-theme w3-justify w3-large" style="margin:0em 2em 1em 2em;">
-                        <p>Occupational Therapy (OT) is an allied health profession, focused on improving people&#39;s ability to participate in their <b><i>Occupations</i></b>. Occupations are the everyday activities that provide meaning to our lives. Occupations range from daily self-care tasks such as dressing and eating, to attending work or school and the ability to engage in leisure and social activities.</p>
-                        <p>During Occupational Therapy, the client is encouraged to take part in the therapy process by participating in structured and unstructured activities. An Occupational Therapist is trained in activity-analysis and can adapt and develop activities specific to each client&#39;s individual needs. Occupational Therapists aim to minimise the environmental barriers that their clients experience and to increase their client&#39;s participation in meaningful tasks.</p><br>
-                        <h4 class="w3-center">Read more ...</h4>
+                <div class="grid-item">
+                    <div class="multicon-body-2col blue-text-blue-bg">
+                        <p class="multicon-logo blue-text-liteblue-bg"><i class="fas fa-certificate fa-2x"></i><br><strong>About - Occupational Therapy</strong></p>
+                        <div class="multicon-content-about white-text-blue-bg">
+                            <p>Occupational Therapy (OT) is an allied health profession, focused on improving people&#39;s ability to participate in their <strong><em>Occupations</em></strong>.</p>
+                            <p>Occupations are the everyday activities that provide meaning to our lives, ranging from daily self-care tasks such as dressing and eating, to attending work or school and the ability to engage in leisure and social activities.</p>
+                            <p>During Occupational Therapy, the client is encouraged to take part in the therapy process by participating in structured and unstructured activities.</p>
+                            <p>An Occupational Therapist is trained in activity-analysis and can adapt and develop activities, to be specific for each client&#39;s individual needs.
+                            </p>
+                            <p>Occupational Therapists aim to minimise the environmental barriers that their clients experience and to increase their client&#39;s participation in meaningful tasks.</p>
+                            <p>Elsje Stuiver - Occupational Therapy focuses on Paediatric intervention, working with babies and children up to the age of 13 years.</p>
+                            <p> Children are best engaged when tasks are fun, novel and playful and our treatment sessions are therefore aimed at involving the child in play-based activities.</p>
+                            <p>As many of a child&#39;s daily occupations take place at home and at school, we will often assess areas of concern identified by a child&#39;s parents or teachers:</p>
+                            <ul style="padding:.5em 0 0 1.5em;">
+                                <li>Developmental delay</li>
+                                <li>Difficulty with the activities of daily life</li>
+                                <li>School related concerns</li>
+                                <li>Sensory Integration difficulties</li>
+                            </ul>
+                        </div>
+                        <div style="height:4em"></div>
+                        <div class="multicon-readmore white-text-blue-bg"><a class="multicon-button" href="about-ot.html" target="_self">Read more ...</a></div>
                     </div>
                 </div>
-            </a>
-        </div>
-    </div>
-    <div id="filler" class="w3-container kcd-theme-blb w3-padding-16"></div>
-    <!-- Services Section -->
-    <div class="w3-container w3-white w3-text-theme w3-center">
-        <p class="w3-center w3-xxxlarge"><b><i class="fas fa-child"></i><span id="services"></span> OUR&nbsp;SERVICES <i class="fas fa-child"></i></b></p>
-        <div class="w3-container w3-white margin-0 padding-0">
-            <div class="w3-container margin-0 padding-0">
-                <!-- Services Assessment -->
-                <div class="w3-third w3-padding w3-round-xxlarge kcd-hover-theme-black">
-                    <a href="services-ot-assessment.html" target="_self">
-                        <div class="kcd-theme-bw w3-padding w3-border w3-border-theme w3-round-xxlarge">
-                            <p class="w3-large w3-padding w3-theme w3-round-xxlarge" style="margin:0.2em 0em -0.1em 0em;"><b><i class="w3-xxlarge fas fa-id-card"></i><span id="services-ot-assessment"></span><br>OT Assessment</b></p>
-                            <div>
-                                <p>An assessment will almost always be the first step in your child&#39;s and family&#39;s Occupational Therapy journey.</p>
-                            </div>
-                            <p style="text-align:center">Read more ...</p>
-                        </div>
-                    </a>
-                </div>
-                <!-- Services Sensory Integration -->
-                <div class="w3-third w3-padding w3-round-xxlarge kcd-hover-theme-black">
-                    <a href="services-sensory-int.html" target="_self">
-                        <div class="kcd-theme-bw w3-padding w3-border w3-border-theme w3-round-xxlarge">
-                            <p class="w3-large w3-padding w3-theme w3-round-xxlarge" style="margin:0.2em 0em -0.1em 0em;"><b><i class="w3-xxlarge fab fa-connectdevelop"></i><span id="services-sensory-int"></span><br>Sensory Integration</b></p>
-                            <div>
-                                <p>Sensory Integration is a post-graduate field of study that is specific to the Occupational Therapy profession.</p>
-                            </div>
-                            <p class="w3-center">Read more ...</p>
-                        </div>
-                    </a>
-                </div>
-                <!-- Services Sensory Diets -->
-                <div class="w3-third w3-padding w3-round-xxlarge kcd-hover-theme-black">
-                    <a href="services-sensory-diet.html" target="_self">
-                        <div class="kcd-theme-bw w3-padding w3-border w3-border-theme w3-round-xxlarge">
-                            <p class="w3-large w3-padding w3-theme w3-round-xxlarge" style="margin:0.2em 0em -0.1em 0em;"><b><i class="w3-xxlarge fab fa-grav"></i><span id="services-sensory-diet"></span><br>Sensory diets</b></p>
-                            <div>
-                                <p>A personalised activity plan that regulates the sensory input that a child needs to stay focused and organised.</p>
-                            </div>
-                            <p class="w3-center">Read more ...</p>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="w3-container margin-0 padding-0">
-                <!-- Services DIR -->
-                <div class="w3-third w3-padding w3-round-xxlarge kcd-hover-theme-black">
-                    <a href="services-dir-floortime.html" target="_self">
-                        <div class="kcd-theme-bw w3-padding w3-border w3-border-theme w3-round-xxlarge">
-                            <p class="w3-large w3-padding w3-theme w3-round-xxlarge" style="margin:0.2em 0em -0.1em 0em;"><b><i class="w3-xxlarge fas fa-street-view"></i><span id="services-dir-floortime"></span><br>DIR / Floortime</b></p>
-                            <div>
-                                <p>These individual treatment sessions develop skills that are essential for building empathetic relationships, communication and the foundations for academic performance.</p>
-                            </div>
-                            <p class="w3-center">Read more ...</p>
-                        </div>
-                    </a>
-                </div>
-                <!-- Services Alert Program -->
-                <div class="w3-third w3-padding w3-round-xxlarge kcd-hover-theme-black">
-                    <a href="services-alert-program.html" target="_self">
-                        <div class="kcd-theme-bw w3-padding w3-border w3-border-theme w3-round-xxlarge">
-                            <p class="w3-large w3-padding w3-theme w3-round-xxlarge" style="margin:0.2em 0em -0.1em 0em;"><b><i class="w3-xxlarge fas fa-bolt"></i><span id="services-alert-program"></span><br>Alert Program</b></p>
-                            <div>
-                                <p>Developed by Occupational Therapists to teach children self regulation and to support learning, attending and positive behaviour. </p>
-                            </div>
-                            <p class="w3-center">Read more ...</p>
-                        </div>
-                    </a>
-                </div>
-                <!-- Services School Visits -->
-                <div class="w3-third w3-padding w3-round-xxlarge kcd-hover-theme-black">
-                    <a href="services-school-visits.html" target="_self">
-                        <div class="kcd-theme-bw w3-padding w3-border w3-border-theme w3-round-xxlarge">
-                            <p class="w3-large w3-padding w3-theme w3-round-xxlarge" style="margin:0.2em 0em -0.1em 0em;"><b><i class="w3-xxlarge fas fa-graduation-cap"></i><span id="services-school-visits"></span><br>School visits</b></p>
-                            <div>
-                                <p>Observe children in their classroom setting. Establish communication with the child&#39;s teachers and/or educational support staff.</p>
-                            </div>
-                            <p class="w3-center">Read more ...</p>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="w3-container margin-0 padding-0">
-                <!-- Services Skills Development -->
-                <div class="w3-third w3-padding w3-round-xxlarge kcd-hover-theme-black">
-                    <a href="services-skills-dev.html" target="_self">
-                        <div class="kcd-theme-bw w3-padding w3-border w3-border-theme w3-round-xxlarge">
-                            <p class="w3-large w3-padding w3-theme w3-round-xxlarge" style="margin:0.2em 0em -0.1em 0em;"><b><i class="w3-xxlarge fas fa-trophy"></i><span id="services-skills-dev"></span><br>Skills Development</b></p>
-                            <div>
-                                <p>Teaching children functional skills so that they can become more independent in everyday activities. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </p>
-                            </div>
-                            <p class="w3-center">Read more ...</p>
-                        </div>
-                    </a>
-                </div>
-                <!-- Services Handwriting -->
-                <div class="w3-third w3-padding w3-round-xxlarge kcd-hover-theme-black">
-                    <a href="services-handwriting.html" target="_self">
-                        <div class="kcd-theme-bw w3-padding w3-border w3-border-theme w3-round-xxlarge">
-                            <p class="w3-large w3-padding w3-theme w3-round-xxlarge" style="margin:0.2em 0em -0.1em 0em;"><b><i class="w3-xxlarge fas fa-pencil-alt"></i><span id="services-handwriting"></span><br>Handwriting</b></p>
-                            <div>
-                                <p>Foundational skills required to develop legible, fluent and fast handwriting styles for success in handwriting.</p>
-                            </div>
-                            <p class="w3-center">Read more ...</p>
-                        </div>
-                    </a>
-                </div>
-                <!-- Services Parent Support -->
-                <div class="w3-third w3-padding w3-round-xxlarge kcd-hover-theme-black">
-                    <a href="services-parent-support.html" target="_self">
-                        <div class="kcd-theme-bw w3-padding w3-border w3-border-theme w3-round-xxlarge">
-                            <p class="w3-large w3-padding w3-theme w3-round-xxlarge" style="margin:0.2em 0em -0.1em 0em;"><b><i class="w3-xxlarge fas fa-users"></i><span id="services-parent-support"></span><br>Parent support</b></p>
-                            <div>
-                                <p>Providing the family with equipment and strategies to best support their child, to achieve their full potential.</p>
-                            </div>
-                            <p class="w3-center">Read more ...</p>
-                        </div>
-                    </a>
-                </div>
             </div>
         </div>
-    </div>
-    <div id="filler" class="w3-container w3-white w3-padding-32"></div>
 
-    <!-- Topics Section -->
-    <div class="w3-container w3-center kcd-theme-blb">
-        <p class="w3-center w3-xxxlarge"><b><i class="fas fa-book"></i> <span id="topics"></span>TOPICS <i class="fas fa-book"></i></b></p>
-        <div class="w3-container margin-0 padding-0">
-            <!-- Topic Autism Spectrum Disorder -->
-            <div class="w3-half kcd-theme-lb w3-padding w3-round-xxlarge kcd-hover-theme-black">
-                <a href="topics-autism.html" target="_self" class="w3-theme">
-                    <div class="w3-theme w3-padding w3-border w3-border-theme w3-round-xxlarge">
-                        <p class="w3-large w3-padding kcd-theme-blb w3-round-xxlarge" style="margin:0.2em 0em -0.1em 0em;"><b><i class="w3-xxlarge fas fa-puzzle-piece"></i><br><span id="topics-autism"></span>Autism Spectrum Disorder</b></p>
-                        <div class="w3-theme w3-justify w3-large">
-                            <div>
-                                <p><b>From Autism South Africa:</b></p>
-                                <p><i><q>Autism spectrum disorder (ASD) and autism are both general terms for a group of complex disorders of brain development.</q></i></p>
-                            </div>
 
-                            <p><i><q>ASD is a developmental disability and people with ASD may communicate, interact, behave and learn in ways that are different from most other people. The learning, thinking, and problem-solving abilities of people with ASD can range from gifted to severely impaired.</q></i></p>
-                            <p><i><q>Some people with ASD need high support &#40;a lot of help and intensive intervention&#41; while others need low support &#40;less help and less intensive intervention&#41;.</q></i></p>
-                            <p><i><q>Autism spectrum disorder (ASD) is chararacterized, in varying degrees, by difficulties in social interaction, verbal and nonverbal communication, repetitive behaviours and differences in sensory perception.</q></i></p>
-                        </div>
-                        <p class="w3-center">Read more ...</p>
+        <!-- Services Section -->
+        <div class="blue-text-white-bg"><span id="services"></span>
+            <div class="section-head">
+                <p><i class="fas fa-child"></i> SERVICES <i class="fas fa-child"></i></p>
+            </div>
+            <div class="grid">
+                <div class="grid-item">
+                    <div class="multicon-body-3col">
+                        <p class="multicon-logo white-text-blue-bg">
+                            <i class="fas fa-id-card"></i><br><strong>OT Assessment</strong></p>
+                        <p class="multicon-content-services">An assessment will almost always be the first step in your child&#39;s and family&#39;s Occupational Therapy journey.</p>
+                        <div class="multicon-readmore"><a class="multicon-button" href="services-ot-assessment.html" target="_self">Read more ...</a></div>
                     </div>
-                </a>
+                </div>
+                <div class="grid-item">
+                    <div class="multicon-body-3col">
+                        <p class="multicon-logo white-text-blue-bg"><i class="fab fa-connectdevelop"></i><br><strong>Sensory Integration</strong>
+                        </p>
+                        <p class="multicon-content-services">Sensory Integration is a post-graduate field of study that is specific to Occupational Therapy.</p>
+                        <div class="multicon-readmore"><a class="multicon-button" href="services-sensory-int.html" target="_self">Read more ...</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <div class="multicon-body-3col">
+                        <p class="multicon-logo white-text-blue-bg"><i class="fab fa-grav"></i><br><strong>Sensory Diets</strong>
+                        </p>
+                        <p class="multicon-content-services">A personalised activity plan that regulates the sensory input that a child needs to stay focused and organised.</p>
+                        <div class="multicon-readmore"><a class="multicon-button" href="services-sensory-diet.html" target="_self">Read more ...</a></div>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <div class="multicon-body-3col">
+                        <p class="multicon-logo white-text-blue-bg"><i class="fas fa-street-view"></i><br><strong>DIR / Floortime</strong>
+                        </p>
+                        <p class="multicon-content-services">Individual treatment sessions to develop skills that are essential for communication, relationships and the foundations for academic performance.</p>
+                        <div class="multicon-readmore"><a class="multicon-button" href="services-ot-assessment.html" target="_self">Read more ...
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <div class="multicon-body-3col">
+                        <p class="multicon-logo white-text-blue-bg"><i class="fas fa-smile"></i><br><strong>Alert program</strong>
+                        </p>
+                        <p class="multicon-content-services">Developed by Occupational Therapists to teach children self regulation and to support learning, attending and positive behaviour.</p>
+                        <div class="multicon-readmore"><a class="multicon-button" href="services-sensory-int.html" target="_self">Read more ...</a></div>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <div class="multicon-body-3col">
+                        <p class="multicon-logo white-text-blue-bg"><i class="fas fa-graduation-cap"></i><br><strong>School visits</strong>
+                        </p>
+                        <p class="multicon-content-services">Observe children in their classroom settings. Establish communication with the child&#39;s teachers and/or educational support staff.</p>
+                        <div class="multicon-readmore"><a class="multicon-button" href="services-sensory-diet.html" target="_self">Read more ...</a></div>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <div class="multicon-body-3col">
+                        <p class="multicon-logo white-text-blue-bg"><i class="fas fa-trophy"></i><br><strong>Skills Development</strong>
+                        </p>
+                        <p class="multicon-content-services">Teaching children functional skills so that they can become more independent in everyday activities. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </p>
+                        <div class="multicon-readmore"><a class="multicon-button" href="services-ot-assessment.html" target="_self">Read more ...
+                            </a></div>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <div class="multicon-body-3col">
+                        <p class="multicon-logo white-text-blue-bg"><i class="fas fa-pencil-alt"></i><br><strong>Handwriting</strong>
+                        </p>
+                        <p class="multicon-content-services">Foundational skills required to develop legible, fluent and fast handwriting styles for success in handwriting.</p>
+                        <div class="multicon-readmore"><a class="multicon-button" href="services-sensory-int.html" target="_self">Read more ...</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <div class="multicon-body-3col">
+                        <p class="multicon-logo white-text-blue-bg"><i class="fas fa-users"></i><br><strong>Parent support</strong>
+                        </p>
+                        <p class="multicon-content-services">Providing the family with equipment and strategies to best support their child, to achieve their full potential.</p>
+                        <div class="multicon-readmore"><a class="multicon-button" href="services-sensory-diet.html" target="_self">Read more ...</a></div>
+                    </div>
+                </div>
             </div>
-            <!-- Topic Attention and Concentration -->
-            <div class="w3-half kd-theme-lb w3-padding w3-round-xxlarge kcd-hover-theme-black">
-                <a href="topics-attention.html" target="_self" class="w3-theme">
-                    <div class="w3-theme w3-padding w3-border w3-border-theme w3-round-xxlarge">
-                        <p class="w3-large w3-padding kcd-theme-blb w3-round-xxlarge" style="margin:0.2em 0em -0.1em 0em;"><b><i class="w3-xxlarge fab fa-superpowers"></i><br><span id="topics-attention"></span>Attention and Concentration</b></p>
-                        <div class="w3-theme w3-justify w3-large">
+        </div>
+
+        <!-- Topics Section-->
+        <div class="blue-text-liteblue-bg"><span id="topics"></span>
+            <div class="section-head">
+                <p><i class="fas fa-book"></i> TOPICS <i class="fas fa-book"></i></p>
+            </div>
+            <div class="grid">
+                <div class="grid-item">
+                    <div class="multicon-body-2col blue-text-blue-bg">
+                        <p class="multicon-logo blue-text-liteblue-bg"><i class="fas fa-puzzle-piece"></i><br><strong>Autism Spectrum Disorder</strong>
+                        </p>
+                        <div class="multicon-content-topics white-text-blue-bg">
+                            <p><strong>From Autism South Africa:</strong></p>
+                            <p><em><q>Autism spectrum disorder (ASD) and autism are both general terms for a group of complex disorders of brain development.</q></em></p>
+                            <p><em><q>ASD is a developmental disability and people with ASD may communicate, interact, behave and learn in ways that are different from most other people. The learning, thinking, and problem-solving abilities of people with ASD can range from gifted to severely impaired.</q></em></p>
+                            <p><em><q>Some people with ASD need high support &#40;a lot of help and intensive intervention&#41; while others need low support &#40;less help and less intensive intervention&#41;.</q></em></p>
+                            <p><em><q>Autism spectrum disorder (ASD) is chararacterized, in varying degrees, by difficulties in social interaction, verbal and nonverbal communication, repetitive behaviours and differences in sensory perception.</q></em></p>
+                        </div>
+                        <div class="multicon-readmore white-text-blue-bg"><a class="multicon-button" href="topics-autism.html" target="_self">Read more ...</a></div>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <div class="multicon-body-2col blue-text-blue-bg">
+                        <p class="multicon-logo blue-text-liteblue-bg"><i class="fab fa-superpowers"></i><br><strong>Attention and Concentration</strong></p>
+                        <div class="multicon-content-topics white-text-blue-bg">
                             <p>Children who struggle with attention and concentration are often described as:</p>
                             <ul>
                                 <li>Having trouble sustaining attention and effort to everyday matters such as homework, schoolwork, chores or paperwork.</li>
@@ -329,106 +214,87 @@
                                 <li>Impulsive. Often and doing or saying before thinking. Easily angered or excited.</li>
                             </ul>
                         </div>
-                        <p class="w3-center">Read more ...</p>
+                        <div class="multicon-readmore white-text-blue-bg"><a class="multicon-button" href="topics-attention.html" target="_self">Read more ...</a></div>
                     </div>
-                </a>
+                </div>
             </div>
         </div>
-    </div>
-    <div id="filler" class="w3-container kcd-theme-blb w3-padding-16"></div>
 
-
-    <!-- News/Blog section -->
-    <div class="w3-center w3-padding w3-text-theme">
-        <p class="w3-center w3-xxxlarge"><b><span id="news"></span> NEWS </b></p>
-        <div class="w3-padding w3-round-xxlarge kcd-hover-theme-black">
-            <a href="news-blog.html" target="_self">
-                <div class="kcd-theme-bw w3-padding w3-border w3-border-theme w3-round-xxlarge">
-                    <p class="w3-large w3-padding w3-theme w3-round-xxlarge" style=" margin:0.2em 0em -0.1em 0em;"><b><i class="w3-xxlarge fab fa-blogger-b">
-                        </i><span id="blog"></span><br>KidzCanDurban.blogspot.com</b>
-                    </p>
-                    <div>
-                        <p><br>
+        <!-- News Section -->
+        <div class="blue-text-white-bg"><span id="news"></span>
+            <div class="section-head">
+                <p>NEWS</p>
+            </div>
+            <div class="grid">
+                <div class="grid-item">
+                    <div class="multicon-body-3col">
+                        <p class="multicon-logo white-text-blue-bg"><i class="fab fa-blogger-b fa-2x"></i><br><strong>KidzCanDurban.blogspot.com</strong>
                         </p>
-                    </div>
-                    <p class="w3-center">Read more ...</p>
-                </div>
-            </a>
-        </div>
-    </div>
-    <div id="filler" class="w3-container w3-text-theme w3-padding-16"></div>
-
-
-    <!-- Contact Section -->
-    <div class="w3-container w3-center kcd-theme-blb">
-        <p class="w3-center w3-xxxlarge"><b><span id="contact"></span> CONTACT US </b></p>
-        <div class="w3-half w3-padding w3-text-black">
-            <p class="w3-left w3-large" style="text-align:left;">Our practice is open Mon to Fri between 08h00 and 16h30<br><br> Please note that we work on a pay per appointment basis.<br>Credit/Debit card facilities are available at the practice.<br>Clients are resposible for submitting claims to their medical aid.<br><br>Contact us by phone or by email or use the link below to send us a message.<br><br> <i class="fas fa-phone fa-2x w3-margin-right w3-text-theme"></i>&nbsp; Phone:&nbsp;(064)&nbsp;899&nbsp;4748<br><br>
-                <i class="fas fa-envelope fa-2x w3-margin-right w3-text-theme"></i>Email:&nbsp;info@kidzcandurban.com<br></p>
-            <form action="https://formspree.io/info@kidzcandurban.com" method="POST">
-                <p class="w3-large"><input class="w3-input w3-border" type="text" placeholder="Name" required name="name"></p>
-                <p class="w3-large"><input class="w3-input w3-border" type="email" placeholder="Email" required name="_replyto"></p>
-                <p class="w3-large"><textarea class="w3-input w3-border" type="text" rows="3" placeholder=" Message" required name="message"></textarea></p>
-                <input type="text" name="_gotcha" style="display:none">
-                <button class="w3-button w3-theme w3-margin" type="submit" value="Send"><i class="fas fa-paper-plane"></i> SEND MESSAGE</button>
-            </form>
-        </div>
-        <div class="w3-half w3-padding-0">
-            <p class="w3-large w3-text-black" style="text-align:center;margin-top:26px">
-                We are located in the Whizz Kidz Special Needs Centre<br>5 Gordon Road, Hatton Estates, Pinetown.<br>On Google maps: Type in: <b>5&nbsp;Gordon&nbsp;Road, Pinetown</b></p>
-            <!-- Add link to Google Maps -->
-            <a href="googlemap.html" target="_self"><img src="./images/kcdmap.jpg" style="margin-top:20px;max-width:100%;">
-            </a>
-        </div>
-    </div>
-    <div class="w3-container w3-hide-small kcd-theme-blb w3-padding-32"></div>
-
-    <!-- Footer -->
-    <footer>
-        <div class="w3-container w3-theme margin-0 padding-0">
-            <div class="w3-third w3-theme padding-0 w3-center">
-                <ul style="list-style-type:none;">
-                    <li><b>Website design</b></li>
-                    <li style="line-height:1.5;">paul@kidzcandurban.com</li>
-                    <li style="line-height:1.5;"><i class="fas fa-copyright"></i>KidzCanDurban</li>
-                    <li style="line-height:1.5;">All rights reserved</li>
-                </ul>
-            </div>
-            <div class="w3-third w3-center">
-                <img src="images/kidzcanlogo2.png" alt="logo" class="w3-center w3-round" style="margin:15px 0px 15px 0px;">
-            </div>
-
-            <div class="w3-third w3-theme margin-0 padding-0">
-                <div class="w3-half w3-center"><b>Powered by:&nbsp;</b></div>
-                <div class="w3-half w3-center">
-                    <div class="w3-center" style="text-align:left;">
-                        <a href="http://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" rel="noopener" style="text-decoration:underline;">W3.CSS</a><br>
-                        <a href="http://www.formspree.io" title="formspree" target="_blank" rel="noopener" style="text-decoration:underline; text-align:right;">Formspree</a><br>
-                        <a href="http://pages.github.com/" title="Github pages" target="_blank" rel="noopener" style="text-decoration:underline;">Github&nbsp;pages</a><br>
-                        <a href="http://fontawesome.io" title="Font Awesome" target="_blank" rel="noopener" style="text-decoration:underline;">Font&nbsp;Awesome</a>
+                        <p class="multicon-content-services"><br><br></p>
+                        <div class="multicon-readmore blue-text-white-bg"><a class="multicon-button" href="news-blog.html" target="_self">Visit our blog</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </footer>
+
+        <!-- Contact Section -->
+        <div class="blue-text-liteblue-bg"><span id="contact"></span>
+            <div class="section-head">
+                <p>CONTACT US</p>
+            </div>
+            <div class="grid">
+                <div class="grid-item contact-area1">
+                    <p class="contact-title">Our practice</p>
+                    <p>Our practice is open Mo to Fri between 08h00 and 16h30</p>
+                    <p>Our practice operates on a pay per appointment basis<br>Clients submit their own claims to their medical aid<br>Credit and Debit card facilities are available</p>
+                    <p style="text-align:left"><i class="fas fa-phone" style="margin-left:15%"></i > Phone: (064) 899 4748</p>
+                    <p style="text-align:left"><i class="fas fa-envelope" style="margin-left:15%" ></i> Email : info@kidzcandurban.com</p>
+                    <p><br>Contact us by phone or by email or <br>use the link below to send us a message</p>
+                    <form action="https://formspree.io/info@kidzcandurban.com" method="POST">
+                        <p><input class="contactform" type="text" placeholder="Name" name="name" required></p>
+                        <p><input class="contactform" type="email" placeholder="Email" name="_replyto" required></p>
+                        <p><textarea class="contactform" rows="4" placeholder="Please type your message - Include your telephone number if you would like us to call" name="message" required></textarea>
+                        </p>
+                        <input type="text" name="_gotcha" style="display:none">
+                        <button type="submit" value="Send">Click to send mail</button>
+                    </form>
+                </div>
+                <div class="grid-item contact-area2">
+                    <p class="contact-title">Practice location</p>
+                    <p>Whizz Kidz Special Needs Centre<br>5 Gordon Road, Hatton Estates, Pinetown</p>
+                    <p>On Google maps: Type in:<br>
+                        <strong>5 Gordon Road, Pinetown</strong></p>
+                    <div style="height:1em"></div>
+                    <!-- Add link to Google Maps -->
+                    <a href="googlemap.html" target="_self" style="display: grid;align-content: space-around;justify-content: space-around">
+                       <img src="images/kcdmap.jpg" alt="Google Map" style="border-radius:0; max-width: 450px; width:95%;box-shadow: 10px 10px 5px grey;">
+                    </a>
+                </div>
+            </div>
+        </div>
 
 
-    <!-- Toggle between showing and hiding the sidebar when clicking the menu icon-->
-    <script>
-        var mySidebar = document.getElementById("mySidebar");
-
-        function w3_open() {
-            if (mySidebar.style.display === 'block') {
-                mySidebar.style.display = 'none';
-            } else {
-                mySidebar.style.display = 'block';
-            }
-        } <!-- Close the sidebar with the close button-->
-        function w3_close() {
-            mySidebar.style.display = "none";
-        }
-
-    </script>
+        <!-- Footer -->
+        <div class="footer-wrap white-text-blue-bg">
+            <div class="footer-box">
+                <p><strong>Website design</strong>
+                    <br>paul@kidzcandurban.com<br>
+                    <i class="fas fa-copyright"></i> KidzCanDurban<br>All rights reserved
+                </p>
+            </div>
+            <div class="footer-box">
+                <img src="images/kidzcanlogo2.png" style="border-radius:0" alt="kidzcan logo">
+            </div>
+            <div class="footer-box">
+                <p><strong>Powered by:</strong><br>
+                    <a class="a-deco" href="http://www.formspree.io" title="formspree" target="_blank" rel="noopener">Formspree</a><br>
+                    <a class="a-deco" href="http://pages.github.com/" title="Github pages" target="_blank" rel="noopener">Github pages</a><br>
+                    <a class="a-deco" href="http://fontawesome.io" title="Font Awesome" target="_blank" rel="noopener">Font Awesome</a>
+                </p>
+            </div>
+        </div>
+    </main>
 </body>
 
 </html>
