@@ -6,8 +6,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/png" href="favicon-32x32.png">
-    <link href="Fontawesome/css/all.css" rel="stylesheet">
-    <link href="css/kcdwebsite-min.css" rel="stylesheet" type="text/css">
+    <link href="css/kcdwebsite-index-min.css" rel="stylesheet" type="text/css">
+    <noscript>
+        <link rel="stylesheet" type="text/css" href="Fontawesome/css/all.css"/>
+    </noscript>
 </head>
 
 <body>
@@ -31,7 +33,7 @@
             <div class="homepage-extra">
                 <img src="images/kidz2.jpg" alt="kids in therapy"><br><img src="images/kidz3.jpg" alt="kids in therapy"><br><img src="images/toy1.jpg" alt="kids toys"></div>
             <div class="homepage-fallback"><img src="images/kidz5.jpg" alt="kids in therapy">
-                <p><strong style="font-size: 1.5em">Unlocking your child&#39;s potential</strong><br>We are an independent private practice located in Pinetown, Durban, South Africa.</p>
+                <p><strong style="font-size: 1.5em">Unlocking your child&#39;s potential</strong><br>We are an independent private Occupational Therapy practice located in Pinetown, Durban, South Africa.</p>
                 <p>We specialise in assessing and treating problems that can affect children at home, at school or with friends.</p>
                 <p>Our therapy is fun and we encourage family participation.</p>
                 <p>Our specialised input enables children to discover their strengths, to overcome their difficulties and so unlock their true potential.</p>
@@ -43,7 +45,7 @@
         </div>
 
         <!-- About Section -->
-        <div class=" blue-text-liteblue-bg"><span id="about"></span>
+        <div class="blue-text-liteblue-bg"><span id="about"></span>
             <div class="section-head">
                 <p><i class="fas fa-certificate"></i> ABOUT <i class="fas fa-certificate"></i></p>
             </div>
@@ -135,7 +137,7 @@
                 </div>
                 <div class="grid-item">
                     <div class="multicon-body-3col">
-                        <p class="multicon-logo white-text-blue-bg"><i class="fas fa-smile"></i><br><strong>Alert program</strong>
+                        <p class="multicon-logo white-text-blue-bg"><i class="fas fa-bolt"></i><br><strong>Alert program</strong>
                         </p>
                         <p class="multicon-content-services">Developed by Occupational Therapists to teach children self regulation and to support learning, attending and positive behaviour.</p>
                         <div class="multicon-readmore"><a class="multicon-button" href="services-alert-program.html" target="_self">Read more ...</a></div>
@@ -248,8 +250,8 @@
                     <p class="contact-title">Our practice</p>
                     <p>Our practice is open Mo to Fri between 08h00 and 16h30</p>
                     <p>Our practice operates on a pay per appointment basis<br>Clients submit their own claims to their medical aid<br>Credit and Debit card facilities are available</p>
-                    <p style="text-align:left"><i class="fas fa-phone" style="margin-left:15%"></i > Phone: (064) 899 4748</p>
-                    <p style="text-align:left"><i class="fas fa-envelope" style="margin-left:15%" ></i> Email : info@kidzcandurban.com</p>
+                    <p><i class="fas fa-phone"></i > Phone: (064) 899 4748</p>
+                    <p><i class="fas fa-envelope"></i> Email : info@kidzcandurban.com</p>
                     <p><br>Contact us by phone or by email or <br>use the link below to send us a message</p>
                     <form action="https://formspree.io/info@kidzcandurban.com" method="POST">
                         <p><input class="contactform" type="text" placeholder="Name" name="name" required></p>
@@ -261,14 +263,15 @@
                     </form>
                 </div>
                 <div class="grid-item contact-area2">
-                    <p class="contact-title">Practice location</p>
+                    <p class="contact-title">Practice location" </p>
                     <p>Whizz Kidz Special Needs Centre<br>5 Gordon Road, Hatton Estates, Pinetown</p>
                     <p>On Google maps: Type in:<br>
                         <strong>5 Gordon Road, Pinetown</strong></p>
-                    <div style="height:1em"></div>
+                    <div style="height:1em">
+                    </div>
                     <!-- Add link to Google Maps -->
                     <a href="googlemap.html" target="_self" style="display: grid;align-content: space-around;justify-content: space-around">
-                       <img src="images/kcdmap.jpg" alt="Google Map" style="border-radius:0; max-width: 450px; width:95%;box-shadow: 10px 10px 5px grey;">
+                            <img src="images/kcdmap.jpg" alt="Google Map" style="border-radius:0; max-width: 450px; width:95%;box-shadow: 10px 10px 5px grey">
                     </a>
                 </div>
             </div>
@@ -280,7 +283,8 @@
             <div class="footer-box">
                 <p><strong>Website design</strong>
                     <br>paul@kidzcandurban.com<br>
-                    <i class="fas fa-copyright"></i> KidzCanDurban<br>All rights reserved
+                    <i class="fas fa-copyright">
+                </i> KidzCanDurban<br>All rights reserved
                 </p>
             </div>
             <div class="footer-box">
@@ -288,13 +292,26 @@
             </div>
             <div class="footer-box">
                 <p><strong>Powered by:</strong><br>
-                    <a class="a-deco" href="http://www.formspree.io" title="formspree" target="_blank" rel="noopener">Formspree</a><br>
-                    <a class="a-deco" href="http://pages.github.com/" title="Github pages" target="_blank" rel="noopener">Github pages</a><br>
+                    <a class="a-deco" href="http://www.formspree.io" title="formspree" target="_blank" rel="noopener">Formspree" </a><br>
+                    <a class="a-deco" href="http://pages.github.com/" title="Github pages" target="_blank" rel="noopener">Github pages </a><br>
                     <a class="a-deco" href="http://fontawesome.io" title="Font Awesome" target="_blank" rel="noopener">Font Awesome</a>
                 </p>
             </div>
         </div>
     </main>
+
+    <script>
+        (function() {
+            var font = document.createElement('link');
+            font.type = 'text/css';
+            font.rel = 'stylesheet';
+            font.href = 'Fontawesome/css/all.css';
+            var s = document.getElementsByTagName('link')[0];
+            s.parentNode.insertBefore(font, s);
+        })();
+
+    </script>
+
 </body>
 
 </html>
