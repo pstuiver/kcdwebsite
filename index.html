@@ -14,10 +14,10 @@
 
 <body>
     <div class="header">
-        <img src="images/kidzcanlogo13.png" alt="Kidzcan logo">
+        <img src="images/kidzcanlogo13.png" alt="Kidzcan logo" style="margin-bottom:-0.1em">
         <p class="header-l-text">Elsje Stuiver - Occupational Therapy</p><br>
         <p class="header-s-text">HPCSA reg. OT0073342 &nbsp; &nbsp; &nbsp;Practice no. 0684414</p>
-        <div class="navbar white-text-blue-bg">
+        <div class="navbar white-text-blue-bg" style="display:flex;justify-content: space-around">
             <a href="#home"><i class="fas fa-home"></i> Home</a>
             <a href="#about"><i class="fas fa-certificate"></i> About</a>
             <a href="#services"><i class="fas fa-child"></i> Services</a>
@@ -29,7 +29,7 @@
     <main>
         <!-- Homepage -->
         <div class="homepage-padding blue-text-white-bg"><span id="home"></span></div>
-        <div class="homepage" style="width:100%">
+        <div class="homepage" style="width:100%;padding-left: 0.5em">
             <div class="homepage-extra">
                 <img src="images/kidz12.jpg" alt="kids in therapy"><br><img src="images/kidz13.jpg" alt="kids in therapy"><br><img src="images/toy11.jpg" alt="kids toys"></div>
             <div class="homepage-fallback"><img src="images/kidz15.jpg" alt="kids in therapy">
@@ -248,11 +248,15 @@
             <div class="grid">
                 <div class="grid-item contact-area1">
                     <p class="contact-title">Our practice</p>
-                    <p>Our practice is open Mo to Fri between 08h00 and 16h30</p>
-                    <p>Our practice operates on a pay per appointment basis<br>Clients submit their own claims to their medical aid<br>Credit and Debit card facilities are available</p>
-                    <p><i class="fas fa-phone"></i > Phone: (064) 899 4748</p>
-                    <p><i class="fas fa-envelope"></i> Email : info@kidzcandurban.com</p>
-                    <p><br>Contact us by phone or by email or <br>use the link below to send us a message</p>
+                    <p>Our practice is open Mo to Fri between 08h00 and 16h30</br>
+                        Our practice operates on a pay per appointment basis<br>
+                        Clients submit their own claims to their medical aid<br>
+                        Credit and Debit card facilities are available</p>
+                      <div style="display:inline-block">
+                        <p style="text-align:left"><i class="fas fa-phone"></i> Phone: (064) 899 4748 <br>
+                          <i class="fas fa-envelope"></i> Email : info@kidzcandurban.com</p>
+                      </div>
+                      <p>Contact us by phone or by email or <br>use the link below to send us a message</p>
                     <form action="https://formspree.io/info@kidzcandurban.com" method="POST">
                         <p><input class="contactform" type="text" placeholder="Please fill in your name" name="name" required></p>
                         <p><input class="contactform" type="email" placeholder="Your email address" name="_replyto" required></p>
