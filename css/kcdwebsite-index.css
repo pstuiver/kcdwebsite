@@ -1,3 +1,12 @@
+:root {
+    --dcolor: rgb(0, 0, 139);
+    --mcolor: rgb(0, 62, 249);
+    --lcolor: rgb(189, 210, 229);
+    --whitecolor: rgb(255, 255, 255);
+    --greycolor: rgb(181, 181, 181);
+    --blackcolor: rgba(0, 0, 0, 0.9)
+}
+
 body {
     text-align: left;
     max-width: 1280px;
@@ -6,8 +15,8 @@ body {
     line-height: 1.5;
     margin: 0 auto;
     padding: 0;
-    background: #fff;
-    color: #003ef8
+    background: var(--whitecolor);
+    color: var(--mcolor)
 }
 
 main {
@@ -48,36 +57,32 @@ img {
 }
 
 .blue-text-white-bg {
-    color: #003ef8;
-    background: #fff
+    color: var(--mcolor);
+    background: var(--whitecolor)
 }
 
 .blue-text-liteblue-bg {
-    color: #003ef8;
-    background: #bdd2e5
+    color: var(--mcolor);
+    background: var(--lcolor)
 }
 
 .white-text-blue-bg {
-    color: #fff;
-    background: #003ef8
+    color: var(--whitecolor);
+    background:var(--mcolor)
 }
 
 .blue-text-blue-bg {
-    background: #003ef8;
-    color: #003ef8
-}
-
-.fas,
-.fab {
-    font-size: 2.5em;
-    color: inherit;
-    margin-top: .15em
+    background:var(--mcolor);
+    color:var(--mcolor)
 }
 
 a,
-a:visited {
+a:visited,
+svg:visited {
     color: inherit;
     font-weight: normal;
+    stroke: currentColor;
+    fill: currentColor;
     text-decoration: none
 }
 
@@ -99,8 +104,8 @@ li:first-child {
     margin: 0;
     padding: 0;
     text-align: center;
-    color: black;
-    background: white
+    color: var(--blackcolor);
+    background: var(--whitecolor)
 }
 
 .header img {
@@ -129,17 +134,20 @@ li:first-child {
     margin-top: .2em;
     min-height: 2em;
     height: 100%;
-    padding-top: .5em;
+    padding-top: .25em;
     text-align: right;
-    border-bottom: 2px solid #b5b5b5
+    stroke: currentColor;
+    fill: currentColor;
+    border-bottom: 2px solid var(--greycolor)
 }
 
 .navbar a {
     margin-right: .5em
 }
 
-.navbar i {
-    font-size: 1em;
+.navbar svg {
+    width: 1.5em;
+    vertical-align: text-bottom;
     display: none
 }
 
@@ -161,16 +169,16 @@ li:first-child {
 }
 
 .homepage a {
-    color: #fff;
-    background: #003ef8;
+    color: var(--whitecolor);
+    background: var(--mcolor);
     text-decoration: none;
     font-weight: bold;
     height: 1.5em;
     width: 8em;
     padding: .75em;
     border-radius: 2em;
-    border: solid 2px darkblue;
-    box-shadow: 7px 7px 4px darkblue
+    border: solid 2px var(--dcolor);
+    box-shadow: 7px 7px 4px var(--dcolor)
 }
 
 .section-head {
@@ -180,8 +188,11 @@ li:first-child {
     border-top: 2px solid
 }
 
-.section-head i {
-    font-size: 1em
+.section-head svg {
+    width: 2em;
+    margin-bottom:-0.6em;
+    stroke: currentColor;
+    fill: currentColor
 }
 
 .multicon-body-2col,
@@ -206,6 +217,16 @@ li:first-child {
     border-style: solid;
     border-width: .2em;
     border-radius: 2em
+}
+.multicon-logo svg {
+width:3em;
+stroke: currentColor;
+fill: currentColor
+}
+
+.multicon-logo p {
+    margin-top:-0.4em;
+    font-weight: bold
 }
 
 .multicon-content-services {
@@ -239,13 +260,13 @@ li:first-child {
 }
 
 .blue-text-white-bg .multicon-readmore {
-    border: solid 2px #003ef8;
-    box-shadow: 7px 7px 4px grey
+    border: solid 2px var(--mcolor);
+    box-shadow: 7px 7px 4px var(--greycolor)
 }
 
 .blue-text-blue-bg .multicon-readmore {
-    border: solid 2px darkblue;
-    box-shadow: 7px 7px 4px darkblue
+    border: solid 2px var(--dcolor);
+    box-shadow: 7px 7px 4px var(--dcolor)
 }
 
 .contact-title {
@@ -259,6 +280,12 @@ li:first-child {
     padding: 0 .25em 2em .25em;
     margin: 0 auto;
     border-top: solid 1px
+}
+.contact-area1 svg {
+    width: 2.5em;
+    margin-bottom: -0.65em;
+    stroke: currentColor;
+    fill: currentColor
 }
 
 .contact-area2 {
@@ -276,14 +303,14 @@ li:first-child {
 }
 
 form button {
-    color: gray;
+    color: var(--blackcolor);
     font-weight: bold;
-    background: #fff;
+    background: var(--whitecolor);
     display: block;
     height: 3em;
     margin: 0 auto;
     border-radius: 2em;
-    box-shadow: 10px 10px 5px grey;
+    box-shadow: 10px 10px 5px var(--greycolor);
     font-size: 1em
 }
 
@@ -364,7 +391,7 @@ form button {
         display: inline;
         visibility: visible
     }
-    .navbar i {
+    .navbar svg {
         position: relative;
         display: inline;
         visibility: visible
@@ -378,7 +405,6 @@ form button {
         float: left
     }
     .homepage-extra img {
-        width: 100%;
         margin: 3.5em auto;
         position: relative;
         display: inline;

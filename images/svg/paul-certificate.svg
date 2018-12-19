@@ -1,0 +1,8 @@
+ <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+    <path d="M24,4 4,24 24,44 44,24z"></path>
+    <path transform="rotate(15 24 24)" d="M24,4 4,24 24,44 44,24z"></path>
+    <path transform="rotate(30 24 24)" d="M24,4 4,24 24,44 44,24z"></path>
+    <path transform="rotate(45 24 24)" d="M24,4 4,24 24,44 44,24z"></path>
+    <path transform="rotate(60 24 24)" d="M24,4 4,24 24,44 44,24z"></path>
+    <path transform="rotate(75 24 24)" d="M24,4 4,24 24,44 44,24z"></path>
+</svg>

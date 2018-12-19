@@ -1,3 +1,12 @@
+:root {
+    --dcolor: rgb(0, 0, 139);
+    --mcolor: rgb(0, 62, 249);
+    --lcolor: rgb(189, 210, 229);
+    --whitecolor: rgb(255, 255, 255);
+    --greycolor: rgb(181, 181, 181);
+    --blackcolor: rgba(0, 0, 0, 0.9)
+}
+
 body {
     text-align: left;
     max-width: 1280px;
@@ -6,30 +15,24 @@ body {
     line-height: 1.5;
     margin: 0 auto;
     padding: 0;
-    background: #ffffff;
-    color: #003ef8;
+    background: var(--whitecolor);
+    color: var(--mcolor)
 }
 
 
 .blue-text-white-bg {
-    color: #003ef8;
-    fill: #003ef8;
-    stroke: #003ef8;
-    background: #ffffff;
+    color: var(--mcolor);
+    background: var(--whitecolor)
 }
 
 .blue-text-liteblue-bg {
-    color: #003ef8;
-    fill: #003ef8;
-    stroke: #003ef8;
-    background: #bdd2e5;
+    color: var(--mcolor);
+    background: var(--lcolor)
 }
 
 .white-text-blue-bg {
-    color: #ffffff;
-    fill: #ffffff;
-    stroke: none;
-    background: #003ef8;
+    color: var(--whitecolor);
+    background:var(--mcolor)
 }
 
 a,
@@ -59,18 +62,17 @@ li:first-child {
     position: fixed;
     margin: 0;
     padding: 0 1.5em;
-    border-bottom: 2px solid #b5b5b5;
+    border-bottom: 2px solid var(--greycolor);
     text-align: center;
 }
 
 .info-header a {
     float: left;
-    margin: 0.75em 0;
+    margin: 0.5em 0;
 }
 
 .info-left-svg {
-    position: absolute;
-    width: 3.25em;
+    width: 3.5em;
     stroke: currentColor;
     fill: currentColor;
 }
@@ -78,7 +80,7 @@ li:first-child {
 .info-mid-svg {
     width: 3em;
     margin-top: 0.1em;
-    stroke: none;
+    stroke: currentColor;
     fill: currentColor;
 }
 

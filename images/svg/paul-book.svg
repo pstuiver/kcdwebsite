@@ -1,0 +1,5 @@
+ <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+    <path stroke-width="3" stroke= "currentColor" d="M4,24 4,10 Q14,5 22,10 v14 M4,24 4,38 Q14,33 22,38 v-14z"></path>
+    <path stroke-width="3" stroke= "currentColor" fill="none" d="M22,10 Q34,5 44,10 v15 M22.8,39.3 Q34,33 44,38 v-14"></path>
+    <path stroke-width="1.5" stroke= "currentColor" fill="none" d="M26,15 Q33,12 40,15 M26,20 Q33,17 40,20 M26,25 Q33,22 40,25 M26,30 Q33,27 40,30"></path>
+</svg>
