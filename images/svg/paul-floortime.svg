@@ -1,5 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
-    <path d="M2,30 24,19 46,32 24,46Z"></path>
-    <path d="M5,12 C5,10 13,10 13,12Z M5,12 5,17 7,17 7,23 11,23 11,17 13,17 13,12Z"></path>
-    <circle cx="9px" cy="6px" r="2.5px"></circle>
+    <title>Floortime icon</title>
+    <path fill="none" d="M1.8,27 21.5,16.5Z M34,20 46.2,26.5"></path>
+    <path d ="M2,27.5 2,29 24,42 45.8,28.8 46,27 24,40Z"></path>
+    <path d="M23,16 C23,14 33,10 32.5,12.5Z M25,34 C25,35 31.5,32.5 31,31Z M23,16 23,26 25,25 25,33 31,30.5 31,23 32.5,22 32.5,12.5Z"></path>
+    <ellipse cx="27" cy="7" rx="2" ry="3.6"></ellipse>
 </svg>
