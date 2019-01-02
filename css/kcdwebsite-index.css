@@ -6,8 +6,8 @@ body {
     line-height: 1.5;
     margin: 0 auto;
     padding: 0;
-    background: rgb(255,255,255);
-    color: rgb(0,62,249)
+    background: rgb(255, 255, 255);
+    color: rgb(0, 62, 249)
 }
 
 main {
@@ -48,23 +48,23 @@ img {
 }
 
 .blue-text-white-bg {
-    color: rgb(0,62,249);
-    background: rgb(255,255,255)
+    color: rgb(0, 62, 249);
+    background: rgb(255, 255, 255)
 }
 
 .blue-text-liteblue-bg {
-    color: rgb(0,62,249);
-    background: rgb(189,210,229)
+    color: rgb(0, 62, 249);
+    background: rgb(189, 210, 229)
 }
 
 .white-text-blue-bg {
-    color: rgb(255,255,255);
-    background:rgb(0,62,249)
+    color: rgb(255, 255, 255);
+    background: rgb(0, 62, 249)
 }
 
 .blue-text-blue-bg {
-    background:rgb(0,62,249);
-    color:rgb(0,62,249)
+    background: rgb(0, 62, 249);
+    color: rgb(0, 62, 249)
 }
 
 a,
@@ -95,8 +95,8 @@ li:first-child {
     margin: 0;
     padding: 0;
     text-align: center;
-    color: rgba(0,0,0,0.9);
-    background: rgb(255,255,255)
+    color: rgba(0, 0, 0, 0.9);
+    background: rgb(255, 255, 255)
 }
 
 .header img {
@@ -129,7 +129,7 @@ li:first-child {
     text-align: right;
     stroke: currentColor;
     fill: currentColor;
-    border-bottom: 2px solid rgb(181,181,181)
+    border-bottom: 2px solid rgb(181, 181, 181)
 }
 
 .navbar a {
@@ -138,7 +138,7 @@ li:first-child {
 
 .navbar svg {
     width: 1.5em;
-    height:1.5em;
+    height: 1.5em;
     vertical-align: text-bottom;
     display: none
 }
@@ -161,16 +161,16 @@ li:first-child {
 }
 
 .homepage a {
-    color: rgb(255,255,255);
-    background: rgb(0,62,249);
+    color: rgb(255, 255, 255);
+    background: rgb(0, 62, 249);
     text-decoration: none;
     font-weight: bold;
     height: 1.5em;
     width: 8em;
     padding: .75em;
     border-radius: 2em;
-    border: solid 2px rgb(0,0,139);
-    box-shadow: 7px 7px 4px rgb(0,0,139)
+    border: solid 2px rgb(0, 0, 139);
+    box-shadow: 7px 7px 4px rgb(0, 0, 139)
 }
 
 .section-head {
@@ -183,7 +183,7 @@ li:first-child {
 .section-head svg {
     width: 2em;
     height: 2em;
-    margin-bottom:-0.6em;
+    margin-bottom: -0.6em;
     stroke: currentColor;
     fill: currentColor
 }
@@ -207,15 +207,20 @@ li:first-child {
     border-width: .2em;
     border-radius: 2em
 }
+
 .multicon-logo svg {
-width:3em;
-height:3em;
-stroke: currentColor;
-fill: currentColor
+    width: 3em;
+    height: 3em;
+    stroke: currentColor;
+    fill: currentColor
+}
+
+.multicon-logo svg #w4xicon {
+    width: 9em;
 }
 
 .multicon-logo p {
-    margin-top:-0.4em;
+    margin-top: -0.4em;
     font-weight: bold
 }
 
@@ -250,13 +255,13 @@ fill: currentColor
 }
 
 .blue-text-white-bg .multicon-readmore {
-    border: solid 2px rgb(0,62,249);
-    box-shadow: 7px 7px 4px rgb(181,181,181)
+    border: solid 2px rgb(0, 62, 249);
+    box-shadow: 7px 7px 4px rgb(181, 181, 181)
 }
 
 .blue-text-blue-bg .multicon-readmore {
-    border: solid 2px rgb(0,0,139);
-    box-shadow: 7px 7px 4px rgb(0,0,139)
+    border: solid 2px rgb(0, 0, 139);
+    box-shadow: 7px 7px 4px rgb(0, 0, 139)
 }
 
 .contact-title {
@@ -271,9 +276,10 @@ fill: currentColor
     margin: 0 auto;
     border-top: solid 1px
 }
+
 .contact-area1 svg {
     width: 2.5em;
-    height:2.5em;
+    height: 2.5em;
     margin-bottom: -0.65em;
     stroke: currentColor;
     fill: currentColor
@@ -294,14 +300,14 @@ fill: currentColor
 }
 
 form button {
-    color: rgba(0,0,0,0.9);
+    color: rgba(0, 0, 0, 0.9);
     font-weight: bold;
-    background: rgb(255,255,255);
+    background: rgb(255, 255, 255);
     display: block;
     height: 3em;
     margin: 0 auto;
     border-radius: 2em;
-    box-shadow: 10px 10px 5px rgb(181,181,181);
+    box-shadow: 10px 10px 5px rgb(181, 181, 181);
     font-size: 1em
 }
 
@@ -335,20 +341,25 @@ form button {
         flex-wrap: wrap;
         justify-content: space-around
     }
+
     .grid:last-child {
         padding-bottom: 1em
     }
+
     .grid-item {
         flex: 1 1 20em;
         max-width: 35em;
         width: auto
     }
+
     .multicon-content-services {
         height: 8em
     }
+
     .multicon-body-2col {
         max-width: 33em
     }
+
     .multicon-body-3col {
         max-width: 21em
     }
@@ -358,6 +369,7 @@ form button {
     body {
         font-size: 12px
     }
+
     .navbar a {
         margin-right: .5em
     }
@@ -367,6 +379,7 @@ form button {
     body {
         font-size: 14px
     }
+
     .navbar a {
         margin-right: 1em
     }
@@ -376,31 +389,37 @@ form button {
     body {
         font-size: 16px
     }
+
     .header img {
         position: relative;
         display: inline;
         visibility: visible
     }
+
     .navbar svg {
         position: relative;
         display: inline;
         visibility: visible
     }
+
     .navbar a {
         margin-right: 2.0em
     }
+
     .homepage-extra {
         width: 16.5%;
         height: 100%;
         float: left
     }
+
     .homepage-extra img {
         margin: 3.5em auto;
         position: relative;
-        width:90%;
+        width: 90%;
         display: inline;
         visibility: visible
     }
+
     .homepage-fallback {
         width: 55%;
         height: 100%;
@@ -413,12 +432,15 @@ form button {
     body {
         font-size: 18px
     }
+
     .navbar a {
         margin-right: 2.5em
     }
+
     .homepage-extra {
         width: 25%
     }
+
     .homepage-fallback {
         width: 40%
     }

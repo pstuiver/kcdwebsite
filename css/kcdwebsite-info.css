@@ -23,7 +23,7 @@ body {
 
 .white-text-blue-bg {
     color: rgb(255, 255, 255);
-    background:rgb(0, 62, 249)
+    background: rgb(0, 62, 249)
 }
 
 a,
@@ -53,7 +53,7 @@ li:first-child {
     position: fixed;
     margin: 0;
     padding: 0 1.5em;
-    border-bottom: 2px solid rgb(181,181,181);
+    border-bottom: 2px solid rgb(181, 181, 181);
     text-align: center;
 }
 
@@ -64,14 +64,22 @@ li:first-child {
 
 .info-left-svg {
     width: 3.5em;
-    height:3.5em;
+    height: 3.5em;
     stroke: currentColor;
     fill: currentColor;
 }
 
 .info-mid-svg {
     width: 3em;
-    height:3.5em;
+    height: 3.5em;
+    margin-top: 0.1em;
+    stroke: currentColor;
+    fill: currentColor;
+}
+
+#w4icon {
+    width: 9em;
+    height: 3em;
     margin-top: 0.1em;
     stroke: currentColor;
     fill: currentColor;
