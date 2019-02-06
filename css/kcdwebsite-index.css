@@ -6,7 +6,7 @@ body {
     line-height: 1.5;
     margin: 0 auto;
     padding: 0;
-    background: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
     color: rgb(0, 62, 249)
 }
 
@@ -49,21 +49,21 @@ img {
 
 .blue-text-white-bg {
     color: rgb(0, 62, 249);
-    background: rgb(255, 255, 255)
+    background-color: rgb(255, 255, 255)
 }
 
 .blue-text-liteblue-bg {
     color: rgb(0, 62, 249);
-    background: rgb(189, 210, 229)
+    background-color: rgb(239, 247,255)
 }
 
 .white-text-blue-bg {
     color: rgb(255, 255, 255);
-    background: rgb(0, 62, 249)
+    background-color: rgb(0, 62, 249)
 }
 
 .blue-text-blue-bg {
-    background: rgb(0, 62, 249);
+    background-color: rgb(0, 62, 249);
     color: rgb(0, 62, 249)
 }
 
@@ -96,7 +96,7 @@ li:first-child {
     padding: 0;
     text-align: center;
     color: rgba(0, 0, 0, 0.9);
-    background: rgb(255, 255, 255)
+    background-color: rgb(255, 255, 255)
 }
 
 .header img {
@@ -162,7 +162,7 @@ li:first-child {
 
 .homepage a {
     color: rgb(255, 255, 255);
-    background: rgb(0, 62, 249);
+    background-color: rgb(0, 62, 249);
     text-decoration: none;
     font-weight: bold;
     height: 1.5em;
@@ -202,9 +202,7 @@ li:first-child {
     height: 4.5em;
     text-align: center;
     padding: .75em;
-    margin: .75em .75em 0 .75em;
-    border-style: solid;
-    border-width: .2em;
+    margin: 1em 1em 0.25em 1em;
     border-radius: 2em
 }
 
@@ -302,10 +300,11 @@ li:first-child {
 form button {
     color: rgba(0, 0, 0, 0.9);
     font-weight: bold;
-    background: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
     display: block;
     height: 3em;
     margin: 0 auto;
+    border: 1px solid lightgrey;
     border-radius: 2em;
     box-shadow: 10px 10px 5px rgb(181, 181, 181);
     font-size: 1em

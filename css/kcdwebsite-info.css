@@ -6,24 +6,24 @@ body {
     line-height: 1.5;
     margin: 0 auto;
     padding: 0;
-    background: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
     color: rgb(0, 62, 249)
 }
 
 
 .blue-text-white-bg {
     color: rgb(0, 62, 249);
-    background: rgb(255, 255, 255)
+    background-color: rgb(255, 255, 255)
 }
 
 .blue-text-liteblue-bg {
     color: rgb(0, 62, 249);
-    background: rgb(189, 210, 220)
+    background-color: rgb(239, 247, 255)
 }
 
 .white-text-blue-bg {
     color: rgb(255, 255, 255);
-    background: rgb(0, 62, 249)
+    background-color: rgb(0, 62, 249)
 }
 
 a,
