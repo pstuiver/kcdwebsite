@@ -1,1 +1,1 @@
-# Test site
+# Production files for www.kidzcandurban.com
