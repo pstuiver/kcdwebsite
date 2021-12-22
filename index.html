@@ -35,7 +35,7 @@
     <link rel="mask-icon" href="./safari-pinned-tab.svg" color="#5bbad5" />
     <meta name="msapplication-TileColor" content="#2d89ef" />
     <meta name="theme-color" content="#ffffff" />
-    <link href="./css/index.css" rel="stylesheet" type="text/css" /> 
+    <link href="./css/index.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
     <div class="w-full max-w-7xl mx-auto">
@@ -48,7 +48,7 @@
           max-w-7xl
           w-full
           text-neutral-900
-          bg-neutral-50
+          bg-white
           items-center
           justify-between
           border-b border-neutral-50
@@ -60,6 +60,8 @@
               class="hidden pl-2 py-1 xs:flex xs:w-24 md:w-28 lg:w-32 h-full"
               src="./images/kidzcanlogo.jpg"
               alt="Kidzcan logo"
+              width="480"
+              height="195"
             />
             <div class="flex-column w-full text-center">
               <div class="m-0 font-bold text-md md:text-xl lg:text-2xl">
@@ -81,7 +83,7 @@
               lg:py-2
               items-center
               justify-around
-              gray-on-blue
+              white-on-blue
             "
           >
             <a class="index-nav-a" href="#home">
@@ -166,12 +168,9 @@
             </a>
             <a class="index-nav-a relative" href="#contact">
               <div>
-                <svg class="index-nav-svg" viewBox="0 0 48 48">
+                <svg class="index-nav-svg" viewBox="0 0 512 512">
                   <title>Link to Contact page</title>
-                  <path
-                    stroke-linejoin="round"
-                    d="M4,15 44,15 24,27z M5,42 24,29 43,42z M4,41 23,28 4,17z M44,41 25,28 44,17z M4,15 v4 M44,15 v4 M4,41 4,42 5,42 M44,41 44,42 43,42"
-                  />
+                  <path d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"></path>
                 </svg>
               </div>
               Contact
@@ -189,8 +188,10 @@
                   rounded-lg
                   shadow-xl
                 "
-              >We're hiring!</div>
-              </a>
+              >
+                We're hiring!
+              </div>
+            </a>
           </div>
         </div>
       </div>
@@ -213,20 +214,26 @@
             <img
               class="w-4/5 lg:w-3/5 rounded-lg m-4"
               style="max-width: 190px"
-              src="images/kidz12.jpg"
+              src="images/kidzLeftTop.jpg"
               alt="kids in therapy"
+              width="190"
+              height="158"
             />
             <img
               class="w-4/5 lg:w-3/5 rounded-lg m-4"
               style="max-width: 190px"
-              src="images/kidz13.jpg"
+              src="images/kidzLeftMid.jpg"
               alt="kids in therapy"
+              width="190"
+              height="253"
             />
             <img
               class="w-4/5 lg:w-3/5 rounded-lg m-4"
               style="max-width: 190px"
-              src="images/toy11.jpg"
+              src="images/toyLeftBottom.jpg"
               alt="kids toys"
+              width="190"
+              height="107"
             />
           </div>
           <div
@@ -250,6 +257,8 @@
                   class="pt-2 rounded"
                   src="images/kidzcanlogo.jpg"
                   alt="kidzcan logo"
+                  width="480"
+                  height="195"
                 />
               </div>
             </div>
@@ -330,20 +339,26 @@
             <img
               class="w-4/5 lg:w-3/5 rounded-lg m-4"
               style="max-width: 190px"
-              src="images/kidz16.jpg"
+              src="images/kidzRightTop.jpg"
               alt="kids in therapy"
+              width="190"
+              height="158"
             />
             <img
               class="w-4/5 lg:w-3/5 rounded-lg m-4"
               style="max-width: 190px"
-              src="images/kidz14.jpg"
+              src="images/kidzRightMid.jpg"
               alt="kids in therapy"
+              width="190"
+              height="253"
             />
             <img
               class="w-4/5 lg:w-3/5 rounded-lg m-4"
               style="max-width: 190px"
-              src="images/toy13.jpg"
+              src="images/toyRightBottom.jpg"
               alt="kids toys"
+              width="190"
+              height="107"
             />
           </div>
         </div>
@@ -412,9 +427,10 @@
                   <div class="grid-card-text mb-2">
                     <img
                       class="w-4/5 mx-auto rounded-md"
-                      loading="lazy"
-                      src="images/elsje2021.jpeg"
+                      src="images/elsje2021.jpg"
                       alt="our therapist"
+                      width="430"
+                      height="623"
                       style="max-width: 300px"
                     />
                     <p class="font-bold text-xl text-center tracking-wider">
@@ -570,18 +586,10 @@
                 <a
                   href="views/about-ot.html"
                   target="_self"
-                  class="grid-card-btn text-blue-700 bg-neutral-50"
+                  class="grid-card-btn blue-on-white"
                 >
-                  <div>
-                    <span class="align-middle">Read more</span>
-                    <svg viewBox="0 0 48 48" class="grid-card-btn-svg">
-                      <title>Forward arrow icon</title>
-                      <path
-                        stroke-linejoin="round"
-                        d="M34,26 23,15 23,22 13,22 13,30 23,30 23,37Z"
-                      />
-                    </svg></div
-                ></a>
+                  Read more ...
+                </a>
               </div>
             </div>
           </div>
@@ -646,16 +654,8 @@
                   target="_self"
                   class="grid-card-btn white-on-blue"
                 >
-                  <div>
-                    <span class="align-middle">Read more</span>
-                    <svg viewBox="0 0 48 48" class="grid-card-btn-svg">
-                      <title>Forward arrow icon</title>
-                      <path
-                        stroke-linejoin="round"
-                        d="M34,26 23,15 23,22 13,22 13,30 23,30 23,37Z"
-                      />
-                    </svg></div
-                ></a>
+                  Read more ...
+                </a>
               </div>
             </div>
             <div class="grid-4cols">
@@ -689,16 +689,8 @@
                   target="_self"
                   class="grid-card-btn white-on-blue"
                 >
-                  <div>
-                    <span class="align-middle">Read more</span>
-                    <svg viewBox="0 0 48 48" class="grid-card-btn-svg">
-                      <title>Forward arrow icon</title>
-                      <path
-                        stroke-linejoin="round"
-                        d="M34,26 23,15 23,22 13,22 13,30 23,30 23,37Z"
-                      />
-                    </svg></div
-                ></a>
+                  Read more ...
+                </a>
               </div>
             </div>
             <div class="grid-4cols">
@@ -730,16 +722,8 @@
                   target="_self"
                   class="grid-card-btn white-on-blue"
                 >
-                  <div>
-                    <span class="align-middle">Read more</span>
-                    <svg viewBox="0 0 48 48" class="grid-card-btn-svg">
-                      <title>Forward arrow icon</title>
-                      <path
-                        stroke-linejoin="round"
-                        d="M34,26 23,15 23,22 13,22 13,30 23,30 23,37Z"
-                      />
-                    </svg></div
-                ></a>
+                  Read more ...
+                </a>
               </div>
             </div>
             <div class="grid-4cols">
@@ -766,16 +750,8 @@
                   target="_self"
                   class="grid-card-btn white-on-blue"
                 >
-                  <div>
-                    <span class="align-middle">Read more</span>
-                    <svg viewBox="0 0 48 48" class="grid-card-btn-svg">
-                      <title>Forward arrow icon</title>
-                      <path
-                        stroke-linejoin="round"
-                        d="M34,26 23,15 23,22 13,22 13,30 23,30 23,37Z"
-                      />
-                    </svg></div
-                ></a>
+                  Read more ...
+                </a>
               </div>
             </div>
             <div class="grid-4cols">
@@ -803,16 +779,8 @@
                   target="_self"
                   class="grid-card-btn white-on-blue"
                 >
-                  <div>
-                    <span class="align-middle">Read more</span>
-                    <svg viewBox="0 0 48 48" class="grid-card-btn-svg">
-                      <title>Forward arrow icon</title>
-                      <path
-                        stroke-linejoin="round"
-                        d="M34,26 23,15 23,22 13,22 13,30 23,30 23,37Z"
-                      />
-                    </svg></div
-                ></a>
+                  Read more ...
+                </a>
               </div>
             </div>
             <div class="grid-4cols">
@@ -841,16 +809,8 @@
                   target="_self"
                   class="grid-card-btn white-on-blue"
                 >
-                  <div>
-                    <span class="align-middle">Read more</span>
-                    <svg viewBox="0 0 48 48" class="grid-card-btn-svg">
-                      <title>Forward arrow icon</title>
-                      <path
-                        stroke-linejoin="round"
-                        d="M34,26 23,15 23,22 13,22 13,30 23,30 23,37Z"
-                      />
-                    </svg></div
-                ></a>
+                  Read more ...
+                </a>
               </div>
             </div>
             <div class="grid-4cols">
@@ -887,16 +847,8 @@
                   target="_self"
                   class="grid-card-btn white-on-blue"
                 >
-                  <div>
-                    <span class="align-middle">Read more</span>
-                    <svg viewBox="0 0 48 48" class="grid-card-btn-svg">
-                      <title>Forward arrow icon</title>
-                      <path
-                        stroke-linejoin="round"
-                        d="M34,26 23,15 23,22 13,22 13,30 23,30 23,37Z"
-                      />
-                    </svg></div
-                ></a>
+                  Read more ...
+                </a>
               </div>
             </div>
             <div class="grid-4cols">
@@ -924,16 +876,8 @@
                   target="_self"
                   class="grid-card-btn white-on-blue"
                 >
-                  <div>
-                    <span class="align-middle">Read more</span>
-                    <svg viewBox="0 0 48 48" class="grid-card-btn-svg">
-                      <title>Forward arrow icon</title>
-                      <path
-                        stroke-linejoin="round"
-                        d="M34,26 23,15 23,22 13,22 13,30 23,30 23,37Z"
-                      />
-                    </svg></div
-                ></a>
+                  Read more ...
+                </a>
               </div>
             </div>
             <div class="grid-4cols">
@@ -969,16 +913,8 @@
                   target="_self"
                   class="grid-card-btn white-on-blue"
                 >
-                  <div>
-                    <span class="align-middle">Read more</span>
-                    <svg viewBox="0 0 48 48" class="grid-card-btn-svg">
-                      <title>Forward arrow icon</title>
-                      <path
-                        stroke-linejoin="round"
-                        d="M34,26 23,15 23,22 13,22 13,30 23,30 23,37Z"
-                      />
-                    </svg></div
-                ></a>
+                  Read more ...
+                </a>
               </div>
             </div>
           </div>
@@ -1084,18 +1020,10 @@
                 <a
                   href="views/topics-autism.html"
                   target="_self"
-                  class="grid-card-btn text-blue-700 bg-white"
+                  class="grid-card-btn blue-on-white"
                 >
-                  <div>
-                    <span class="align-middle">Read more</span>
-                    <svg viewBox="0 0 48 48" class="grid-card-btn-svg">
-                      <title>Forward arrow icon</title>
-                      <path
-                        stroke-linejoin="round"
-                        d="M34,26 23,15 23,22 13,22 13,30 23,30 23,37Z"
-                      />
-                    </svg></div
-                ></a>
+                  Read more ...
+                </a>
               </div>
             </div>
             <div class="grid-2cols">
@@ -1163,18 +1091,10 @@
                 <a
                   href="views/topics-attention.html"
                   target="_self"
-                  class="grid-card-btn text-blue-700 bg-neutral-50"
+                  class="grid-card-btn blue-on-white"
                 >
-                  <div>
-                    <span class="align-middle">Read more</span>
-                    <svg viewBox="0 0 48 48" class="grid-card-btn-svg">
-                      <title>Forward arrow icon</title>
-                      <path
-                        stroke-linejoin="round"
-                        d="M34,26 23,15 23,22 13,22 13,30 23,30 23,37Z"
-                      />
-                    </svg></div
-                ></a>
+                  Read more ...
+                </a>
               </div>
             </div>
           </div>
@@ -1223,17 +1143,8 @@
                   href="views/media-blog.html"
                   target="_self"
                   class="grid-card-btn white-on-blue"
+                  >Blog Posts ...</a
                 >
-                  <div>
-                    <span class="align-middle">Blog Posts</span>
-                    <svg viewBox="0 1 48 48" class="grid-card-btn-svg">
-                      <title>Forward arrow icon</title>
-                      <path
-                        stroke-linejoin="round"
-                        d="M34,26 23,15 23,22 13,22 13,30 23,30 23,37Z"
-                      />
-                    </svg></div
-                ></a>
               </div>
             </div>
             <div class="grid-4cols lg:w-1/3">
@@ -1267,17 +1178,8 @@
                   href="views/media-reviews.html"
                   target="_self"
                   class="grid-card-btn white-on-blue"
+                  >Reviews ...</a
                 >
-                  <div>
-                    <span class="align-middle">Reviews</span>
-                    <svg viewBox="0 0 48 48" class="grid-card-btn-svg">
-                      <title>Forward arrow icon</title>
-                      <path
-                        stroke-linejoin="round"
-                        d="M34,26 23,15 23,22 13,22 13,30 23,30 23,37Z"
-                      />
-                    </svg></div
-                ></a>
               </div>
             </div>
             <div class="grid-4cols lg:w-1/3">
@@ -1303,17 +1205,8 @@
                   href="views/media-privacy.html"
                   target="_self"
                   class="grid-card-btn white-on-blue"
+                  >Policy ...</a
                 >
-                  <div>
-                    <span class="align-middle">Policy</span>
-                    <svg viewBox="0 0 48 48" class="grid-card-btn-svg">
-                      <title>Forward arrow icon</title>
-                      <path
-                        stroke-linejoin="round"
-                        d="M34,26 23,15 23,22 13,22 13,30 23,30 23,37Z"
-                      />
-                    </svg></div
-                ></a>
               </div>
             </div>
           </div>
@@ -1327,14 +1220,25 @@
         <div class="grid-container blue-on-white">
           <div class="grid-cols-wrapper">
             <div class="grid-2cols">
-              <div class="grid-card text-blue-700 bg-neutral-100 relative">
+              <div class="grid-card text-blue-800 bg-neutral-100 relative">
                 <a
                   href="views/ot-recruitment.html"
                   target="_self"
-                  class="absolute w-full">
+                  class="absolute w-full"
+                >
                   <div
-                    class="w-10/12 mx-auto text-center -mt-8 text-sm
-                      md:text-base text-white bg-red-600 rounded-lg">
+                    class="
+                      w-10/12
+                      mx-auto
+                      text-center
+                      -mt-8
+                      text-sm
+                      md:text-base
+                      text-white
+                      bg-red-600
+                      rounded-lg
+                    "
+                  >
                     We're hiring an OT - Click for info
                   </div>
                 </a>
@@ -1362,12 +1266,9 @@
                     </div>
                     <div>
                       <p class="inline">
-                        <svg viewBox="0 2 48 48" class="w-8 inline">
+                        <svg viewBox="0 24 512 512" class="w-8 inline">
                           <title>Email icon</title>
-                          <path
-                            stroke-linejoin="round"
-                            d="M4,11 44,11 24,22z M5,38 24,25 43,38z M4,37 23,24 4,13z M44,37 25,24 44,13z M4,11 v4 M44,11 v4 M4,37 4,38 5,38 M44,37 44,38 43,38"
-                          />
+                         <path d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"></path>
                         </svg>
                         Email : info@kidzcandurban.com
                       </p>
@@ -1388,7 +1289,7 @@
                             py-1
                             px-2
                             text-neutral-900
-                            border border-blue-700
+                            border border-blue-800
                             rounded
                           "
                           placeholder="Your name"
@@ -1441,7 +1342,6 @@
                           p-2
                           font-semibold
                           rounded-md
-                          shadow-sm
                           gray-on-blue
                         "
                         type="submit"
@@ -1475,6 +1375,8 @@
                         loading="lazy"
                         src="images/kcdmap.jpg"
                         alt="Google Map"
+                        width="450"
+                        height="407"
                       />
                     </a>
                   </div>
@@ -1499,6 +1401,8 @@
                   class="w-20 xs:w-24 sm:w-28"
                   src="images/kidzcanlogo.jpg"
                   alt="kidzcan logo"
+                  width="480"
+                  height="195"
                 />
               </div>
             </div>

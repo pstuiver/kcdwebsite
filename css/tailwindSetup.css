@@ -20,16 +20,16 @@ li {
   @apply mt-1;
 }
 .blue-on-white {
-  @apply text-blue-700 bg-neutral-50;
+  @apply text-blue-800 bg-neutral-50;
 }
 .blue-on-gray {
-  @apply text-blue-700 bg-neutral-200;
+  @apply text-blue-800 bg-neutral-200;
 }
 .white-on-blue {
-  @apply text-white bg-blue-700;
+  @apply text-white bg-blue-800;
 }
 .gray-on-blue {
-  @apply text-neutral-50 bg-blue-700;
+  @apply text-neutral-50 bg-blue-800;
 }
 .grid-container {
   @apply max-w-screen-xl mx-auto px-4;
@@ -62,11 +62,11 @@ li {
   @apply px-1 py-2 text-center text-sm xs:text-base;
 }
  .grid-card-btn {
-    @apply inline-flex mb-2 sm:mb-4 mx-auto text-center text-sm items-center px-2 font-semibold rounded-md shadow-md;
+    @apply w-32 mx-auto p-1 mb-3 text-center text-sm font-semibold rounded-md;
   }
-.grid-card-btn-svg {
+/* .grid-card-btn-svg {
   @apply inline-flex w-8 stroke-current fill-current;
-}
+} */
 
 .index-nav-a {
   @apply inline-flex text-xs md:text-base;
@@ -75,7 +75,7 @@ li {
   @apply hidden xs:inline-flex xs:w-4 md:w-6 mr-1 -mt-1;
 }
 .section-wrapper {
-  @apply relative w-full py-8 border-b border-blue-700;
+  @apply relative w-full py-8 border-b border-blue-800;
 }
 .section-id {
   @apply absolute -mt-20 md:-mt-24 lg:-mt-28;
