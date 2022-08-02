@@ -64,10 +64,6 @@ li {
  .grid-card-btn {
     @apply w-32 mx-auto p-1 mb-3 text-center text-sm font-semibold rounded-md;
   }
-/* .grid-card-btn-svg {
-  @apply inline-flex w-8 stroke-current fill-current;
-} */
-
 .index-nav-a {
   @apply inline-flex text-xs md:text-base;
 }
