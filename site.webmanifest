@@ -1,6 +1,7 @@
 {
-    "name": "",
-    "short_name": "",
+    "name": "kidzcandurban website",
+    "short_name": "kcd website",
+    "start_url": "https://www.kidzcandurban.com/",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
