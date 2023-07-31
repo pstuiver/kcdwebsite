@@ -28,7 +28,7 @@ jobs:
 
       - name: build
         env:
-          BASE_PATH: 'www.kidzcandurban.com/'
+          BASE_PATH: '/www.kidzcandurban.com'
         run: |
           npm run build
           touch build/.nojekyll
