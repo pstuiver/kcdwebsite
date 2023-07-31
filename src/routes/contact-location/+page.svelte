@@ -1,7 +1,3 @@
-<script>
-	// export let data;
-</script>
-
 <svelte:head>
 	<title>KidzCanDurban - Location</title>
 </svelte:head>
@@ -28,12 +24,6 @@
 	</header>
 
 	<div class="views-content gray-on-blue w-full" style="height: 70vh">
-		<!-- <iframe
-			title="kidzcandurban google map"
-			frameborder="0"
-			width="100%"
-			height="100%"
-			src={data.mapSRC} /> -->
 		<iframe
 			title="kidzcandurban location"
 			frameborder="0"

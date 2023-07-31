@@ -11,7 +11,6 @@
 	// Need this to make this link work in GH Pages build workflows
 	const socialStoriesLink = `services-social-stories`;
 	const visualSchedulesLink = `services-visual-schedules`;
-	$: console.log("base from about-aac = ", base)
 </script>
 
 <svelte:head>
