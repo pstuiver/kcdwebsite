@@ -34,7 +34,7 @@
 			width="100%"
 			height="100%"
 			src={data.mapSRC} /> -->
-			<iframe
+		<iframe
 			title="kidzcandurban location"
 			frameborder="0"
 			width="100%"

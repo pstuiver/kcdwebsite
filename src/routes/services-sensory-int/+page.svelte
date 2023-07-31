@@ -4,7 +4,7 @@
 	export let headerColor = 'gray-on-blue';
 	export let headerTitle = 'Sensory Integration';
 	// Need this to make this link work in GH Pages build workflows
-	const alertLink = `services-alert`;
+	const alertLink = `services-alert-program`;
 	const sensoryDietLink = `services-sensory-diet`;
 </script>
 
