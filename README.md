@@ -1,4 +1,9 @@
-# kcdweb-test
+# production files for www.kidzcandurban.com
 
-kcdweb test site to test new features when deployed on GH Pages with different browsers, devices, etc.  
-The actual, production site where new features will eventually be implemented is hosted on GH Pages in a custom domain - www.kidzcandurban.com
+## Convert from vanilla css to TailwindCSS Feb 2021
+
+## Hosted on github pages
+
+## Converted to Astro build files in July 2023
+
+## Converted to SvelteKit with a direct build via a GitHub workflow 0n 31 July 2023
