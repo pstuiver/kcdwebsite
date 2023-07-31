@@ -13,9 +13,10 @@
 <div class="views-container">
 	<RouteHead {headerColor} {headerTitle} />
 
-	<div class="flex flex-col items-center relative w-full h-screen m-0 p-0 astro-4Y4XMH2W">
+	<div class="flex flex-col items-center relative w-full h-screen m-0 p-0">
 		<div
-			class="absolute origin-top width-full h-screen scale-[0.43] xs:iframescale-xs sm:iframescale-sm md:iframescale-md -mt-16 xs:-iframemt-xs sm:-iframemt-sm md:-iframemt-md svelte-19c54l5">
+			class="absolute origin-top width-full h-screen scale-[0.43] xs:scale-[0.66]
+			md:scale-[1.0] -mt-16 xs:-mt-32 md:-mt-48">
 			<iframe title="kidzcandurban blog" width="780px" height="250%" class="" src={blogSRC} />
 		</div>
 	</div>
