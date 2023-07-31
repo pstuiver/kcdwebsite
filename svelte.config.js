@@ -7,9 +7,9 @@ const dev = process.argv.includes('dev');
 const config = {
 	kit: {
 		adapter: adapter(),
-		// paths: {
-		// 	base: dev ? '' : process.env.BASE_PATH
-		// }
+		paths: {
+			base: dev ? '' : '/www.kidzcandurban.com'
+		}
 	},
 
 	preprocess: [vitePreprocess({})]
