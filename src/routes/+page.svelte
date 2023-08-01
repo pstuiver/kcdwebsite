@@ -11,6 +11,12 @@
 	const { servicesCards, aboutCards, mediaCards } = data;
 	// Need this to make this link work in GH Pages build workflows
 	const locationLink = `contact-location`;
+	// Need this to ensure that user will return to same scroll position after navigation
+	// Standard browser methods are proving inconsistent between browsers
+	export const snapshot = {
+		capture: () => window.scrollY,
+		restore: (value) => window.scrollTo(0, value)
+	};
 </script>
 
 <main>
