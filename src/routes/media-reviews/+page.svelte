@@ -30,7 +30,7 @@
 				{:else if review.rating == 4}
 					<SVGFourStar />
 				{:else}
-				<SVGFiveStar />
+					<SVGFiveStar />
 				{/if}
 			</div>
 			<p class="mt-0 text-left">{review.text}</p>
