@@ -58,7 +58,7 @@
 							&nbsp;
 						</div>
 					</div>
-					<nav class="flex flex-row w-full py-1 lg:py-2 items-center justify-around white-on-blue">
+					<nav class="flex flex-row w-full py-1 lg:py-2 items-center justify-around n0-on-blue">
 						<a class="index-nav-a" href="#home">
 							<SVGHome />
 							Home</a>
@@ -81,7 +81,7 @@
 				</div>
 			</header>
 			<div class="top-0 w-full h-16 md:h-20 lg:h-24">&nbsp;</div>
-			<section class="section-wrapper blue-on-gray pt-2 pb-8">
+			<section class="section-wrapper blue-on-n200 pt-2 pb-8">
 				<div id="home" class="section-id">&nbsp;</div>
 				<main class="-mx-4 flex">
 					<div
@@ -213,7 +213,7 @@
 							</div>
 						</div>
 						<a
-							class="block w-32 mx-auto mt-4 text-center text-sm sm:text-base p-2 font-semibold rounded-md shadow-sm gray-on-blue"
+							class="block w-32 mx-auto mt-4 text-center text-sm sm:text-base p-2 font-semibold rounded-md shadow-sm n50-on-blue"
 							href="#contact">Contact us</a>
 					</div>
 					<div class="hidden md:flex md:flex-col md:flex-grow pl-3 pr-6" aria-hidden="true">
@@ -292,7 +292,7 @@
 					</div>
 				</main>
 			</section>
-			<section class="section-wrapper blue-on-white">
+			<section class="section-wrapper blue-on-n50">
 				<div id="therapist" class="section-id">&nbsp;</div>
 				<div class="section-head">
 					<SVGTherapist svgClass={'section-head-svg'} />
@@ -302,7 +302,7 @@
 				<div class="grid-container">
 					<div class="grid-cols-wrapper">
 						<div class="grid-2cols">
-							<div class="grid-card gray-on-blue">
+							<div class="grid-card n50-on-blue">
 								<div class="grid-card-top-outer">
 									<div class="grid-card-top-inner">
 										<SVGTherapist svgClass={'grid-card-svg'} />
@@ -384,7 +384,7 @@
 							</div>
 						</div>
 						<div class="grid-2cols">
-							<div class="grid-card gray-on-blue">
+							<div class="grid-card n50-on-blue">
 								<div class="grid-card-top-outer">
 									<div class="grid-card-top-inner">
 										<SVGTherapist svgClass={'grid-card-svg'} />
@@ -472,7 +472,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="section-wrapper blue-on-gray">
+			<section class="section-wrapper blue-on-n200">
 				<div id="services" class="section-id">&nbsp;</div>
 				<div class="section-head">
 					<SVGServices svgClass={'section-head-svg'} />
@@ -484,7 +484,7 @@
 						{#each servicesCards as servicesCard}
 							<div class="grid-4cols">
 								<!-- eslint-disable svelte/no-at-html-tags -->
-								<div class="grid-card blue-on-white">
+								<div class="grid-card blue-on-n50">
 									<div class="grid-card-top-outer">
 										<div class="grid-card-top-inner">
 											<div>
@@ -499,14 +499,14 @@
 									<a
 										href="{base}/{servicesCard.link}"
 										target="_self"
-										class="grid-card-btn white-on-blue">{@html servicesCard.buttonHTML}</a>
+										class="grid-card-btn n0-on-blue">{@html servicesCard.buttonHTML}</a>
 								</div>
 							</div>
 						{/each}
 					</div>
 				</div>
 			</section>
-			<section class="section-wrapper blue-on-white">
+			<section class="section-wrapper blue-on-n50">
 				<div id="about" class="section-id">&nbsp;</div>
 				<div class="section-head">
 					<SVGAbout svgClass={'section-head-svg'} />
@@ -518,7 +518,7 @@
 						{#each aboutCards as aboutCard}
 							<div class="grid-2cols @container">
 								<!-- eslint-disable svelte/no-at-html-tags -->
-								<div class="grid-card gray-on-blue">
+								<div class="grid-card n50-on-blue">
 									<div class="section-id" id={aboutCard.id} />
 									<div class="grid-card-top-outer">
 										<div class="grid-card-top-inner">
@@ -545,7 +545,7 @@
 									<a
 										href="{base}/{aboutCard.link}"
 										target="_self"
-										class="grid-card-btn blue-on-white">
+										class="grid-card-btn blue-on-n50">
 										{@html aboutCard.buttonHTML}
 									</a>
 								</div>
@@ -554,7 +554,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="section-wrapper blue-on-gray">
+			<section class="section-wrapper blue-on-n200">
 				<div id="media" class="section-id">&nbsp;</div>
 				<div class="section-head">
 					<SVGMedia svgClass={'section-head-svg'} />
@@ -566,7 +566,7 @@
 						{#each mediaCards as mediaCard}
 							<div class="grid-4cols lg:w-1/3">
 								<!-- eslint-disable svelte/no-at-html-tags -->
-								<div class="grid-card blue-on-white">
+								<div class="grid-card blue-on-n50">
 									<div class="grid-card-top-outer">
 										<div class="grid-card-top-inner">
 											<div>
@@ -578,10 +578,7 @@
 											{@html mediaCard.bodyHTML}
 										</div>
 									</div>
-									<a
-										href="{base}/{mediaCard.link}"
-										target="_self"
-										class="grid-card-btn white-on-blue">
+									<a href="{base}/{mediaCard.link}" target="_self" class="grid-card-btn n0-on-blue">
 										{@html mediaCard.buttonHTML}
 									</a>
 								</div>
@@ -646,7 +643,7 @@
 											</label>
 											<input type="text" name="_gotcha" style="display: none" aria-hidden="true" />
 											<button
-												class="block mx-auto my-2 text-center text-sm p-2 font-semibold rounded-md gray-on-blue"
+												class="block mx-auto my-2 text-center text-sm p-2 font-semibold rounded-md n50-on-blue"
 												type="submit"
 												value="Send">
 												Send Message
@@ -702,7 +699,7 @@
 				</div>
 			</section>
 			<footer id="footer-area" aria-label="footer area">
-				<div class="py-2 relative w-full border-b border-blue-700 gray-on-blue">
+				<div class="py-2 relative w-full border-b border-blue-700 n50-on-blue">
 					<div class="flex items-center justify-around text-xs xs:text-sm">
 						<div class="text-center">
 							<div><span class="font-bold">Website design:</span></div>

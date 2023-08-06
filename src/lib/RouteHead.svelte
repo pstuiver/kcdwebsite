@@ -1,5 +1,5 @@
 <script>
-	export let headerColor = 'blue-on-white';
+	export let headerColor = 'blue-on-n50';
 	export let headerTitle = 'Handwriting';
 </script>
 

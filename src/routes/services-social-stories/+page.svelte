@@ -1,6 +1,6 @@
 <script>
 	import RouteHead from '$lib/RouteHead.svelte';
-	export let headerColor = 'gray-on-blue';
+	export let headerColor = 'n50-on-blue';
 	export let headerTitle = 'Social Stories';
 </script>
 
@@ -11,7 +11,7 @@
 <div class="views-container">
 	<RouteHead {headerColor} {headerTitle} />
 
-	<main class="views-content blue-on-white">
+	<main class="views-content blue-on-n50">
 		<p class="font-bold">Designing Social Stories</p>
 		<p>
 			Children with special needs may not always have perfect social skills but with Social Stories,
