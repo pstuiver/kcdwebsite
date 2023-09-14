@@ -1,4 +1,5 @@
 <script>
+	/* Needed to remove all target="_self" from <a> tags to ensure that user will return to same scroll position after navigation away from the homepage.*/
 	import { base } from '$app/paths';
 	import SVGHome from '$lib/SVGHome.svelte';
 	import SVGTherapist from '$lib/SVGTherapist.svelte';
@@ -11,12 +12,6 @@
 	const { servicesCards, aboutCards, mediaCards } = data;
 	// Need this to make this link work in GH Pages build workflows
 	const locationLink = `contact-location`;
-	// Need this to ensure that user will return to same scroll position after navigation
-	// Standard browser methods are proving inconsistent between browsers
-	export const snapshot = {
-		capture: () => window.scrollY,
-		restore: (value) => window.scrollTo(0, value)
-	};
 </script>
 
 <main>
@@ -496,10 +491,8 @@
 											{@html servicesCard.bodyHTML}
 										</div>
 									</div>
-									<a
-										href="{base}/{servicesCard.link}"
-										target="_self"
-										class="grid-card-btn n0-on-blue">{@html servicesCard.buttonHTML}</a>
+									<a href="{base}/{servicesCard.link}" class="grid-card-btn n0-on-blue"
+										>{@html servicesCard.buttonHTML}</a>
 								</div>
 							</div>
 						{/each}
@@ -542,10 +535,7 @@
 											{@html aboutCard.bodyHTML}
 										</div>
 									</div>
-									<a
-										href="{base}/{aboutCard.link}"
-										target="_self"
-										class="grid-card-btn blue-on-n50">
+									<a href="{base}/{aboutCard.link}" class="grid-card-btn blue-on-n50">
 										{@html aboutCard.buttonHTML}
 									</a>
 								</div>
@@ -578,7 +568,7 @@
 											{@html mediaCard.bodyHTML}
 										</div>
 									</div>
-									<a href="{base}/{mediaCard.link}" target="_self" class="grid-card-btn n0-on-blue">
+									<a href="{base}/{mediaCard.link}" class="grid-card-btn n0-on-blue">
 										{@html mediaCard.buttonHTML}
 									</a>
 								</div>
@@ -666,7 +656,7 @@
 										<div class="mb-2">
 											<span class="font-bold">5 Gordon Road, Pinetown</span>
 										</div>
-										<a href="{base}/{locationLink}" target="_self"
+										<a href="{base}/{locationLink}"
 											><picture
 												><source
 													srcset="

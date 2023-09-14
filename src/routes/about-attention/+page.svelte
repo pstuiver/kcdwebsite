@@ -23,10 +23,9 @@
 		</p>
 		<p>
 			Hence our focus on conducting comprehensive
-			<a class="views-link" href="{base}/{assessmentLink}" target="_self"
-				>Occupational Therapy assessments</a
-			>to assist our therapists in identifying aspects that may be affecting a child’s ability to
-			focus and attend.
+			<a class="views-link" href="{base}/{assessmentLink}">Occupational Therapy assessments</a>to
+			assist our therapists in identifying aspects that may be affecting a child’s ability to focus
+			and attend.
 		</p>
 		<p>
 			Our therapists are qualified and experienced to treat attention and concentration difficulties
@@ -53,9 +52,9 @@
 			</li>
 			<li>
 				Addressing sensory modulation difficulties through the implementation of a
-				<a class="views-link" href="{base}/{sensoryDietLink}" target="_self">Sensory Diet</a>
+				<a class="views-link" href="{base}/{sensoryDietLink}">Sensory Diet</a>
 				or an
-				<a class="views-link" href="{base}/{alertLink}" target="_self">Alert Program</a>
+				<a class="views-link" href="{base}/{alertLink}">Alert Program</a>
 				depending on the child’s needs and abilities.
 			</li>
 		</ul>
