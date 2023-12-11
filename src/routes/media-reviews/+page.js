@@ -1,12 +1,27 @@
+// @ts-nocheck
 /** @type {import('./$types').PageLoad} */
 export async function load() {
 	const reviews = [
+		{
+			name: 'Avril Edwards',
+			rating: 5,
+			text: '(A 5-star rating without comment was provided)'
+		},
+		{
+			name: 'Barbara Oelofse',
+			rating: 5,
+			text: '2 years ago, I knew that I needed help and took a chance to start OT with my daughter at 2 and a half years. Elsje is my lifeline, my village with whom I share all my concerns. I look to Elsje for a lot of answers, and she is always open to listen. OT has changed every aspect of my family’s day to day and I have gained the best relationship with my kids. Elsje is my go-to for everything regarding my kids! Thank you for being there for us.'
+		},
 		{
 			name: 'Zelda Snyders',
 			rating: 5,
 			text: 'My little one has been with Elsje just over two years. I can truly say that Elsje listens to your concerns and addresses them with detail. I was very scared at first as I had no idea what an OT did or what sessions entailed, but after the first session with Elsje my fears were put to rest - knowing that she works with me, and takes my concerns seriously and attends to my little one with absolute care and professionalism. I get to learn with my little one as Elsje gives constant feedback regarding their sessions and what we can do from home to help her along.'
 		},
-		{ name: 'Evelyn Harry', rating: 5, text: '(A 5-star rating without comment was provided)' },
+		{
+			name: 'Evelyn Harry',
+			rating: 5,
+			text: '(A 5-star rating without comment was provided)'
+		},
 		{
 			name: 'Ntombenhle Mkhize',
 			rating: 5,
@@ -25,7 +40,7 @@ export async function load() {
 		{
 			name: 'Zamo Ntuli',
 			rating: 5,
-			text: "We have had the most fruitful journey with Elsje as our daughter's OT. She started when she was 10 years old and Elsje was a big part of her transitioning smoothly into her teens &amp; puberty. Elsje has a skill set that enables her to go beyond what you (as a parent) present, as challenges &amp; needs - which is so beneficial when you set goals for a child on the Autism Spectrum. Our daughter also has a severe Speech disorder that requires her to use AAC. Elsje was able to adapt sessions brilliantly, to include our 'ProLoquo App' in order to synchronise her outcomes &amp; findings with our daughter's Speech Therapy Sessions. Today, our daughter is a self-regulated teenager who is confident to be in a school setting with other special-needs teens &amp; enjoy a full day's schooling environment! Highly recommend Elsje as an OT."
+			text: "We have had the most fruitful journey with Elsje as our daughter's OT. She started when she was 10 years old and Elsje was a big part of her transitioning smoothly into her teens &amp; puberty. Elsje has a skill set that enables her to go beyond what you (as a parent) present, as challenges &amp; needs - which is so beneficial when you set goals for a child on the Autism Spectrum. Our daughter also has a severe Speech disorder that requires her to use AAC. Elsje was able to adapt sessions brilliantly, to include our 'Proloquo App' in order to synchronise her outcomes &amp; findings with our daughter's Speech Therapy Sessions. Today, our daughter is a self-regulated teenager who is confident to be in a school setting with other special-needs teens &amp; enjoy a full day's schooling environment! Highly recommend Elsje as an OT."
 		},
 		{
 			name: 'Tamarin Goldblatt',

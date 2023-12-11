@@ -1,3 +1,4 @@
+// @ts-ignore
 import servicesAssessmentSVG from '$lib/servicesAssessmentSVG';
 import servicesSensoryIntSVG from '$lib/servicesSensoryIntSVG';
 import servicesSensoryDietSVG from '$lib/servicesSensoryDietSVG';
@@ -164,8 +165,8 @@ export async function load() {
 					intervention).
 				</p>
 				<p>
-					Autism spectrum disorder (ASD) is chararacterized, in varying degrees, by
-					difficulties in social interaction, verbal and nonverbal communication,
+					Autism spectrum disorder (ASD) is characterised, in varying degrees, by
+					difficulties in social interaction, verbal and non-verbal communication,
 					repetitive behaviours and differences in sensory perception.
 				</p></div>`,
 			link: `about-autism`,
@@ -256,7 +257,7 @@ export async function load() {
 			title: 'Client Reviews',
 			iconHTML: mediaReviewsSVG,
 			bodyHTML: `<span class="font-bold">Rating average: 5 stars</span> 
-		 			<br /><span>from 13 reviews</span>`,
+		 			<br /><span>from 15 reviews</span>`,
 			link: `media-reviews`,
 			buttonHTML: `<span class="sr-only">Read our client</span>Reviews ...`
 		},
