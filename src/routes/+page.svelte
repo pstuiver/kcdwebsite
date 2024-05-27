@@ -187,8 +187,7 @@
 						</div>
 						<div class="text-center">
 							<div class="mt-1">
-								We are a private Occupational Therapy practice located in Pinetown, Durban, South
-								Africa.
+								We are an Occupational Therapy practice located in Pinetown, Durban, South Africa.
 							</div>
 							<p>
 								We specialise in assessing and treating problems that can affect children at home,
