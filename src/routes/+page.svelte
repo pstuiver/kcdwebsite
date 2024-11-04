@@ -593,19 +593,22 @@
                     <h2 class="grid-card-title">Contact Details</h2>
                   </div>
                   <div class="relative grid-card-text">
-                    <!-- Start of special 2023/2024 closed message (includes position:relative above)-->
-                    <div
-                      class="absolute text-left mt-16 mr-1 bg-red-500 text-white rounded-lg -rotate-[5deg]">
-                      <p class="px-2 py-1 m-0">
-                        We are sorry to inform that after eight wonderful years, Elsje Stuiver will
-                        be relocating at the end of 2024.
-                      </p>
-                      <p class="px-2 py-1 m-0">
-                        As a result, this Occupational Therapy practice will be closing at the end
-                        of the 2024 school year.
-                      </p>
-                    </div>
-                    <!-- End of special 2023/2024 closed message -->
+                   <!-- Start of special 2023/2024 closed message (includes position:relative above)-->
+                   <div
+                   class="absolute text-left mt-16 mr-1 bg-red-500 text-white rounded-lg -rotate-[5deg]">
+                   <p class="px-2 py-1 m-0">
+                     We are sorry to inform that after eight wonderful years, Elsje Stuiver will
+                     be relocating at the end of 2024.
+                   </p>
+                   <p class="px-2 py-1 m-0">
+                     As a result, this Occupational Therapy practice will be closing at the end
+                     of November 2024.
+                   </p>
+                   <p class="px-2 py-1 m-0">
+                    We apologise for any inconvenience caused.
+                   </p>
+                 </div>
+                 <!-- End of special 2023/2024 closed message -->
                     <div>Mon to Fri 08h00 to 16h30</div>
                     <div>We work on a pay per appointment basis</div>
                     <div>Credit and Debit card facilities available</div>
