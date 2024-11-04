@@ -8,7 +8,7 @@
 	import SVGMedia from '$lib/SVGMedia.svelte';
 	import SVGContact from '$lib/SVGContact.svelte';
 	import SVGTelephone from '$lib/SVGTelephone.svelte';
-	export let data;
+	let { data } = $props();
 	const { servicesCards, aboutCards, mediaCards } = data;
 	// Need this to make this link work in GH Pages build workflows
 	const locationLink = `contact-location`;

@@ -2,7 +2,7 @@
   import RouteHead from "$lib/RouteHead.svelte";
   const headerColor = "n50-on-blue";
   const headerTitle = "Blog Posts";
-  export let data;
+  let { data } = $props();
   const { blogSRC } = data;
 </script>
 
