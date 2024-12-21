@@ -10,6 +10,7 @@ const config = {
     paths: {
       base: dev ? "" : process.env.BASE_PATH,
     },
+    output: { bundleStrategy: "single" },
   },
 
   preprocess: [vitePreprocess({})],
