@@ -179,8 +179,7 @@ export async function load() {
       bodyHTML: `<p>
 			Communication devices, systems, strategies and tools that replace or support
 			natural speech are known as
-			<span class="font-bold">Augmentative and Alternative Communication (AAC)
-			</span>.</p>
+			<span class="font-bold">Augmentative and Alternative Communication (AAC)</span></p>
 			<p>
 			The first “A” in AAC stands for
 			<span class="font-bold">Augmentative</span>.
