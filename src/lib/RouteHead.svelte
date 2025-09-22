@@ -11,7 +11,7 @@
 
 <header class="views-head {headerColor} border-b border-neutral-50">
 	<nav class="w-full">
-		<div class="w-full flex items-center justify-between">
+		<div class="flex w-full items-center justify-between">
 			<div class="flex items-center">
 				<!-- svelte-ignore a11y_invalid_attribute -->
 				<a href="javascript:history.back()">
@@ -23,7 +23,7 @@
 				<span class="views-head-back" aria-hidden="true">back</span>
 			</div>
 			<!-- eslint-disable svelte/no-at-html-tags -->
-			<h1 class="views-head-text">{@html headerTitle}</h1>
+			<div class="views-head-text">{@html headerTitle}</div>
 			<div class="views-head-dummy" aria-hidden="true">&nbsp;</div>
 		</div>
 	</nav>
