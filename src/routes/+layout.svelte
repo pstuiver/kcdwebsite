@@ -1,8 +1,7 @@
 <script>
-	import '../tailwind.postcss';
-	import { onMount } from 'svelte';
+	import "../app.css";
+	import { onMount } from "svelte";
 	let { children } = $props();
-
 	let dialog;
 	let closeBtn;
 	onMount(() => {
@@ -13,7 +12,7 @@
 
 <dialog
 	bind:this={dialog}
-	class="max-h-[60vh] w-10/12 max-w-md overflow-auto rounded-lg border border-red-300 px-4 py-2 text-sm text-white shadow-white backdrop:bg-white/10 open:bg-red-600 sm:text-base">
+	class="m-auto max-h-[60vh] w-10/12 max-w-md overflow-auto rounded-lg border border-red-300 px-4 py-2 text-sm text-white shadow-white backdrop:bg-white/10 open:bg-red-600 sm:text-base">
 	<p>
 		We are sorry to inform that after eight wonderful years, Elsje Stuiver will be relocating at the
 		end of 2024.
@@ -28,7 +27,7 @@
 		onclick={(e) => {
 			(e.preventDefault(), dialog.close());
 		}}
-		class="absolute right-1 top-1 h-6 w-6 rounded-full bg-red-200 text-xs font-semibold text-red-500 ring-0"
+		class="absolute top-1 right-1 h-6 w-6 rounded-full bg-red-200 text-xs font-semibold text-red-500 ring-0"
 		>X
 	</button>
 </dialog>
