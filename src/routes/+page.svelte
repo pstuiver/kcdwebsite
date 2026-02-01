@@ -13,7 +13,7 @@
 	import SVGTelephone from "$lib/SVGTelephone.svelte";
 
 	let { data } = $props();
-	const { servicesCards, aboutCards, mediaCards } = data;
+	const { servicesCards, aboutCards, mediaCards } = $derived(data);
 	// Need this to make this link work in GH Pages build workflows
 	const locationLink = `contact-location`;
 
