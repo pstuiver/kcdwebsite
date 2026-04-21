@@ -1,6 +1,6 @@
 ## Project Overview
 
-This production website (CNAME www.kidzcandueban.com) is hosted on Github Pages and is the website of a privately owned Occupational Therapy (OT) practice located in Durban, South Africa. The main goal of the website is to provide the OT practice's clients and prospective clients with information about the contact details, location, services, staff, procedures, etc. at the OT practice. 
+This production website (CNAME www.kidzcandueban.com) is hosted on Github Pages and is the website of a privately owned Occupational Therapy (OT) practice located in Durban, South Africa. The main goal of the website is to provide the OT practice's clients and prospective clients with information about the contact details, location, services, staff, procedures, etc. at the OT practice.
 
 The website aims to provide fast and easy acces to a wide range of clients with various cultural, educational and economic backgrounds. Many clients and propective clients are expected to be persons for whom English is not the first language, who will access the website on old, low-power cellular phones with limited (e.g. 3G) internet data and connectivity.
 
