@@ -35,7 +35,6 @@
 	function handleLinkClick(event) {
 		event.preventDefault();
 		sessionStorage.setItem("homepage-scroll", Math.round(window.scrollY).toString());
-		// eslint-disable-next-line svelte/no-navigation-without-resolve
 		goto(event.currentTarget.getAttribute("href"));
 	}
 </script>
